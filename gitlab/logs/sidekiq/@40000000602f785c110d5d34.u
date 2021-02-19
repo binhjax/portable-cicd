@@ -1,0 +1,47 @@
+{"severity":"INFO","time":"2021-02-19T08:31:31.178Z","message":"Starting cluster with 1 processes"}
+{"severity":"INFO","time":"2021-02-19T08:32:03.567Z","message":"Booting Sidekiq 5.2.9 with redis options {:instrumentation_class=\u003eGitlab::Instrumentation::Redis::Queues, :path=\u003e\"/var/opt/gitlab/redis/redis.socket\", :namespace=\u003e\"resque:gitlab\", :id=\u003e\"Sidekiq-server-PID-1160\", :url=\u003enil}"}
+{"severity":"INFO","time":"2021-02-19T08:32:03.603Z","message":"GitLab reliable fetch activated!"}
+{"severity":"INFO","time":"2021-02-19T08:32:05.120Z","message":"Cron Jobs - add job with name: stuck_ci_jobs_worker"}
+{"severity":"INFO","time":"2021-02-19T08:32:05.124Z","message":"Cron Jobs - add job with name: pipeline_schedule_worker"}
+{"severity":"INFO","time":"2021-02-19T08:32:05.133Z","message":"Cron Jobs - add job with name: expire_build_artifacts_worker"}
+{"severity":"INFO","time":"2021-02-19T08:32:05.137Z","message":"Cron Jobs - add job with name: ci_pipelines_expire_artifacts_worker"}
+{"severity":"INFO","time":"2021-02-19T08:32:05.143Z","message":"Cron Jobs - add job with name: ci_schedule_delete_objects_worker"}
+{"severity":"INFO","time":"2021-02-19T08:32:05.148Z","message":"Cron Jobs - add job with name: environments_auto_stop_cron_worker"}
+{"severity":"INFO","time":"2021-02-19T08:32:05.156Z","message":"Cron Jobs - add job with name: repository_check_worker"}
+{"severity":"INFO","time":"2021-02-19T08:32:05.162Z","message":"Cron Jobs - add job with name: admin_email_worker"}
+{"severity":"INFO","time":"2021-02-19T08:32:05.168Z","message":"Cron Jobs - add job with name: personal_access_tokens_expiring_worker"}
+{"severity":"INFO","time":"2021-02-19T08:32:05.172Z","message":"Cron Jobs - add job with name: personal_access_tokens_expired_notification_worker"}
+{"severity":"INFO","time":"2021-02-19T08:32:05.178Z","message":"Cron Jobs - add job with name: repository_archive_cache_worker"}
+{"severity":"INFO","time":"2021-02-19T08:32:05.182Z","message":"Cron Jobs - add job with name: import_export_project_cleanup_worker"}
+{"severity":"INFO","time":"2021-02-19T08:32:05.187Z","message":"Cron Jobs - add job with name: ci_archive_traces_cron_worker"}
+{"severity":"INFO","time":"2021-02-19T08:32:05.194Z","message":"Cron Jobs - add job with name: requests_profiles_worker"}
+{"severity":"INFO","time":"2021-02-19T08:32:05.201Z","message":"Cron Jobs - add job with name: remove_expired_members_worker"}
+{"severity":"INFO","time":"2021-02-19T08:32:05.205Z","message":"Cron Jobs - add job with name: remove_expired_group_links_worker"}
+{"severity":"INFO","time":"2021-02-19T08:32:05.210Z","message":"Cron Jobs - add job with name: remove_unaccepted_member_invites_worker"}
+{"severity":"INFO","time":"2021-02-19T08:32:05.213Z","message":"Cron Jobs - add job with name: prune_old_events_worker"}
+{"severity":"INFO","time":"2021-02-19T08:32:05.221Z","message":"Cron Jobs - add job with name: trending_projects_worker"}
+{"severity":"INFO","time":"2021-02-19T08:32:05.224Z","message":"Cron Jobs - add job with name: remove_unreferenced_lfs_objects_worker"}
+{"severity":"INFO","time":"2021-02-19T08:32:05.228Z","message":"Cron Jobs - add job with name: import_stuck_project_import_jobs"}
+{"severity":"INFO","time":"2021-02-19T08:32:05.231Z","message":"Cron Jobs - add job with name: jira_import_stuck_jira_import_jobs"}
+{"severity":"INFO","time":"2021-02-19T08:32:05.238Z","message":"Cron Jobs - add job with name: stuck_export_jobs_worker"}
+{"severity":"INFO","time":"2021-02-19T08:32:05.243Z","message":"Cron Jobs - add job with name: gitlab_usage_ping_worker"}
+{"severity":"INFO","time":"2021-02-19T08:32:05.250Z","message":"Cron Jobs - add job with name: stuck_merge_jobs_worker"}
+{"severity":"INFO","time":"2021-02-19T08:32:05.256Z","message":"Cron Jobs - add job with name: pages_domain_verification_cron_worker"}
+{"severity":"INFO","time":"2021-02-19T08:32:05.261Z","message":"Cron Jobs - add job with name: pages_domain_removal_cron_worker"}
+{"severity":"INFO","time":"2021-02-19T08:32:05.265Z","message":"Cron Jobs - add job with name: pages_domain_ssl_renewal_cron_worker"}
+{"severity":"INFO","time":"2021-02-19T08:32:05.272Z","message":"Cron Jobs - add job with name: issue_due_scheduler_worker"}
+{"severity":"INFO","time":"2021-02-19T08:32:05.279Z","message":"Cron Jobs - add job with name: prune_web_hook_logs_worker"}
+{"severity":"INFO","time":"2021-02-19T08:32:05.292Z","message":"Cron Jobs - add job with name: metrics_dashboard_schedule_annotations_prune_worker"}
+{"severity":"INFO","time":"2021-02-19T08:32:05.300Z","message":"Cron Jobs - add job with name: schedule_migrate_external_diffs_worker"}
+{"severity":"INFO","time":"2021-02-19T08:32:05.304Z","message":"Cron Jobs - add job with name: namespaces_prune_aggregation_schedules_worker"}
+{"severity":"INFO","time":"2021-02-19T08:32:05.309Z","message":"Cron Jobs - add job with name: container_expiration_policy_worker"}
+{"severity":"INFO","time":"2021-02-19T08:32:05.319Z","message":"Cron Jobs - add job with name: x509_issuer_crl_check_worker"}
+{"severity":"INFO","time":"2021-02-19T08:32:05.324Z","message":"Cron Jobs - add job with name: users_create_statistics_worker"}
+{"severity":"INFO","time":"2021-02-19T08:32:05.329Z","message":"Cron Jobs - add job with name: authorized_project_update_periodic_recalculate_worker"}
+{"severity":"INFO","time":"2021-02-19T08:32:05.332Z","message":"Cron Jobs - add job with name: update_container_registry_info_worker"}
+{"severity":"INFO","time":"2021-02-19T08:32:05.338Z","message":"Cron Jobs - add job with name: postgres_dynamic_partitions_creator"}
+{"severity":"INFO","time":"2021-02-19T08:32:05.341Z","message":"Cron Jobs - add job with name: ci_platform_metrics_update_cron_worker"}
+{"severity":"INFO","time":"2021-02-19T08:32:05.345Z","message":"Cron Jobs - add job with name: analytics_instance_statistics_count_job_trigger_worker"}
+{"severity":"INFO","time":"2021-02-19T08:32:05.350Z","message":"Cron Jobs - add job with name: member_invitation_reminder_emails_worker"}
+{"severity":"INFO","time":"2021-02-19T08:32:05.357Z","message":"Cron Jobs - add job with name: schedule_merge_request_cleanup_refs_worker"}
+{"severity":"INFO","time":"2021-02-19T08:32:05.367Z","message":"Cron Jobs - add job with name: manage_evidence_worker"}

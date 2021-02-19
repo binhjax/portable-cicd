@@ -1,0 +1,9 @@
+2021-02-19_08:21:39.19964 {"timestamp":"2021-02-19T08:21:39.199Z","pid":1019,"message":"Puma starting in cluster mode..."}
+2021-02-19_08:21:39.20088 {"timestamp":"2021-02-19T08:21:39.199Z","pid":1019,"message":"* Puma version: 5.1.1 (ruby 2.7.2-p137) (\"At Your Service\")"}
+2021-02-19_08:21:39.20191 {"timestamp":"2021-02-19T08:21:39.199Z","pid":1019,"message":"*  Min threads: 4"}
+2021-02-19_08:21:39.20301 {"timestamp":"2021-02-19T08:21:39.199Z","pid":1019,"message":"*  Max threads: 4"}
+2021-02-19_08:21:39.20404 {"timestamp":"2021-02-19T08:21:39.199Z","pid":1019,"message":"*  Environment: production"}
+2021-02-19_08:21:39.20494 {"timestamp":"2021-02-19T08:21:39.199Z","pid":1019,"message":"*   Master PID: 1019"}
+2021-02-19_08:21:39.20556 {"timestamp":"2021-02-19T08:21:39.199Z","pid":1019,"message":"*      Workers: 4"}
+2021-02-19_08:21:39.20637 {"timestamp":"2021-02-19T08:21:39.199Z","pid":1019,"message":"*     Restarts: (✔) hot (✖) phased"}
+2021-02-19_08:21:39.20704 {"timestamp":"2021-02-19T08:21:39.199Z","pid":1019,"message":"* Preloading application"}

@@ -1,0 +1,22 @@
+2021-02-19_08:30:53.82183 LOG:  starting PostgreSQL 12.5 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 5.4.0-6ubuntu1~16.04.12) 5.4.0 20160609, 64-bit
+2021-02-19_08:30:53.83909 LOG:  listening on Unix socket "/var/opt/gitlab/postgresql/.s.PGSQL.5432"
+2021-02-19_08:30:54.16233 LOG:  database system was interrupted; last known up at 2021-02-19 08:27:37 GMT
+2021-02-19_08:30:57.42771 FATAL:  the database system is starting up
+2021-02-19_08:31:02.44167 FATAL:  the database system is starting up
+2021-02-19_08:31:07.49531 FATAL:  the database system is starting up
+2021-02-19_08:31:12.56341 FATAL:  the database system is starting up
+2021-02-19_08:31:17.15174 LOG:  could not open file "./server.crt": Operation not permitted
+2021-02-19_08:31:17.15371 LOG:  could not open file "./server.key": Operation not permitted
+2021-02-19_08:31:17.17576 LOG:  database system was not properly shut down; automatic recovery in progress
+2021-02-19_08:31:17.39830 LOG:  invalid record length at 0/2F77EE8: wanted 24, got 0
+2021-02-19_08:31:17.40800 LOG:  redo is not required
+2021-02-19_08:31:17.50647 LOG:  database system is ready to accept connections
+2021-02-19_08:31:17.59824 LOG:  no match in usermap "gitlab" for user "gitlab" authenticated as "root"
+2021-02-19_08:31:17.60080 FATAL:  Peer authentication failed for user "gitlab"
+2021-02-19_08:31:17.60215 DETAIL:  Connection matched pg_hba.conf line 70: "local   all         all                               peer map=gitlab"
+2021-02-19_08:31:18.13034 LOG:  no match in usermap "gitlab" for user "gitlab" authenticated as "root"
+2021-02-19_08:31:18.13142 FATAL:  Peer authentication failed for user "gitlab"
+2021-02-19_08:31:18.13253 DETAIL:  Connection matched pg_hba.conf line 70: "local   all         all                               peer map=gitlab"
+2021-02-19_08:31:18.27623 LOG:  no match in usermap "gitlab" for user "gitlab" authenticated as "root"
+2021-02-19_08:31:18.27727 FATAL:  Peer authentication failed for user "gitlab"
+2021-02-19_08:31:18.27939 DETAIL:  Connection matched pg_hba.conf line 70: "local   all         all                               peer map=gitlab"

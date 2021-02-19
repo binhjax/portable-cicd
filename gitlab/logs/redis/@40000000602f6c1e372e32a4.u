@@ -1,0 +1,24 @@
+2021-02-19_07:23:26.04225 254:C 19 Feb 2021 07:23:26.029 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+2021-02-19_07:23:26.04352 254:C 19 Feb 2021 07:23:26.029 # Redis version=5.0.9, bits=64, commit=ce878b6e, modified=1, pid=254, just started
+2021-02-19_07:23:26.04468 254:C 19 Feb 2021 07:23:26.029 # Configuration loaded
+2021-02-19_07:23:26.04610 254:M 19 Feb 2021 07:23:26.041 * Running mode=standalone, port=0.
+2021-02-19_07:23:26.04721 254:M 19 Feb 2021 07:23:26.041 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+2021-02-19_07:23:26.04872 254:M 19 Feb 2021 07:23:26.041 # Server initialized
+2021-02-19_07:23:26.05002 254:M 19 Feb 2021 07:23:26.041 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+2021-02-19_07:23:26.05150 254:M 19 Feb 2021 07:23:26.049 * DB loaded from disk: 0.008 seconds
+2021-02-19_07:23:26.05277 254:M 19 Feb 2021 07:23:26.049 * The server is now ready to accept connections at /var/opt/gitlab/redis/redis.socket
+2021-02-19_07:28:27.06387 254:M 19 Feb 2021 07:28:27.063 * 10 changes in 300 seconds. Saving...
+2021-02-19_07:28:27.06788 254:M 19 Feb 2021 07:28:27.064 * Background saving started by pid 5933
+2021-02-19_07:28:27.10567 5933:C 19 Feb 2021 07:28:27.105 * DB saved on disk
+2021-02-19_07:28:27.10722 5933:C 19 Feb 2021 07:28:27.106 * RDB: 1 MB of memory used by copy-on-write
+2021-02-19_07:28:27.16547 254:M 19 Feb 2021 07:28:27.165 * Background saving terminated with success
+2021-02-19_07:33:28.02363 254:M 19 Feb 2021 07:33:28.023 * 10 changes in 300 seconds. Saving...
+2021-02-19_07:33:28.02777 254:M 19 Feb 2021 07:33:28.024 * Background saving started by pid 11401
+2021-02-19_07:33:28.06378 11401:C 19 Feb 2021 07:33:28.063 * DB saved on disk
+2021-02-19_07:33:28.06576 11401:C 19 Feb 2021 07:33:28.064 * RDB: 1 MB of memory used by copy-on-write
+2021-02-19_07:33:28.12659 254:M 19 Feb 2021 07:33:28.126 * Background saving terminated with success
+2021-02-19_07:38:29.08826 254:M 19 Feb 2021 07:38:29.088 * 10 changes in 300 seconds. Saving...
+2021-02-19_07:38:29.09113 254:M 19 Feb 2021 07:38:29.088 * Background saving started by pid 16706
+2021-02-19_07:38:29.12483 16706:C 19 Feb 2021 07:38:29.124 * DB saved on disk
+2021-02-19_07:38:29.12835 16706:C 19 Feb 2021 07:38:29.124 * RDB: 1 MB of memory used by copy-on-write
+2021-02-19_07:38:29.19058 254:M 19 Feb 2021 07:38:29.189 * Background saving terminated with success

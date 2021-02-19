@@ -1,0 +1,77 @@
+2021-02-19_07:03:37.92548 LOG:  starting PostgreSQL 12.5 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 5.4.0-6ubuntu1~16.04.12) 5.4.0 20160609, 64-bit
+2021-02-19_07:03:37.93749 LOG:  listening on Unix socket "/var/opt/gitlab/postgresql/.s.PGSQL.5432"
+2021-02-19_07:03:37.98125 LOG:  database system was shut down at 2021-02-19 07:03:31 GMT
+2021-02-19_07:03:38.01287 LOG:  database system is ready to accept connections
+2021-02-19_07:03:41.06699 LOG:  no match in usermap "gitlab" for user "gitlab" authenticated as "root"
+2021-02-19_07:03:41.06791 FATAL:  Peer authentication failed for user "gitlab"
+2021-02-19_07:03:41.06945 DETAIL:  Connection matched pg_hba.conf line 70: "local   all         all                               peer map=gitlab"
+2021-02-19_07:03:41.34476 LOG:  no match in usermap "gitlab" for user "gitlab" authenticated as "root"
+2021-02-19_07:03:41.34554 FATAL:  Peer authentication failed for user "gitlab"
+2021-02-19_07:03:41.34639 DETAIL:  Connection matched pg_hba.conf line 70: "local   all         all                               peer map=gitlab"
+2021-02-19_07:03:41.50957 LOG:  no match in usermap "gitlab" for user "gitlab" authenticated as "root"
+2021-02-19_07:03:41.51063 FATAL:  Peer authentication failed for user "gitlab"
+2021-02-19_07:03:41.51155 DETAIL:  Connection matched pg_hba.conf line 70: "local   all         all                               peer map=gitlab"
+2021-02-19_07:03:45.12466 LOG:  no match in usermap "gitlab" for user "gitlab" authenticated as "root"
+2021-02-19_07:03:45.12578 FATAL:  Peer authentication failed for user "gitlab"
+2021-02-19_07:03:45.12660 DETAIL:  Connection matched pg_hba.conf line 70: "local   all         all                               peer map=gitlab"
+2021-02-19_07:03:45.89267 LOG:  no match in usermap "gitlab" for user "gitlab" authenticated as "root"
+2021-02-19_07:03:45.89427 FATAL:  Peer authentication failed for user "gitlab"
+2021-02-19_07:03:45.89505 DETAIL:  Connection matched pg_hba.conf line 70: "local   all         all                               peer map=gitlab"
+2021-02-19_07:09:38.48647 WARNING:  could not open statistics file "pg_stat_tmp/global.stat": Operation not permitted
+2021-02-19_07:12:35.58025 WARNING:  could not open statistics file "pg_stat_tmp/global.stat": Operation not permitted
+2021-02-19_07:16:38.48767 LOG:  no match in usermap "gitlab" for user "gitlab" authenticated as "root"
+2021-02-19_07:16:38.48889 FATAL:  Peer authentication failed for user "gitlab"
+2021-02-19_07:16:38.49051 DETAIL:  Connection matched pg_hba.conf line 70: "local   all         all                               peer map=gitlab"
+2021-02-19_07:16:38.62921 LOG:  no match in usermap "gitlab" for user "gitlab" authenticated as "root"
+2021-02-19_07:16:38.63079 FATAL:  Peer authentication failed for user "gitlab"
+2021-02-19_07:16:38.63192 DETAIL:  Connection matched pg_hba.conf line 70: "local   all         all                               peer map=gitlab"
+2021-02-19_07:16:38.73581 LOG:  no match in usermap "gitlab" for user "gitlab" authenticated as "root"
+2021-02-19_07:16:38.73695 FATAL:  Peer authentication failed for user "gitlab"
+2021-02-19_07:16:38.73833 DETAIL:  Connection matched pg_hba.conf line 70: "local   all         all                               peer map=gitlab"
+2021-02-19_07:17:20.38627 WARNING:  could not open statistics file "pg_stat_tmp/global.stat": Operation not permitted
+2021-02-19_07:19:19.27252 WARNING:  could not open statistics file "pg_stat_tmp/global.stat": Operation not permitted
+2021-02-19_07:19:39.07504 received TERM from runit, sending INT instead to force quit connections
+2021-02-19_07:19:39.08652 LOG:  received fast shutdown request
+2021-02-19_07:19:39.11039 LOG:  aborting any active transactions
+2021-02-19_07:19:39.11213 FATAL:  terminating connection due to administrator command
+2021-02-19_07:19:39.12535 FATAL:  terminating connection due to administrator command
+2021-02-19_07:19:39.13893 FATAL:  terminating connection due to administrator command
+2021-02-19_07:19:39.14257 FATAL:  terminating connection due to administrator command
+2021-02-19_07:19:39.15697 FATAL:  terminating connection due to administrator command
+2021-02-19_07:19:39.16292 FATAL:  terminating connection due to administrator command
+2021-02-19_07:19:39.16961 FATAL:  terminating connection due to administrator command
+2021-02-19_07:19:39.17339 STATEMENT:  SELECT relnamespace::regnamespace as schemaname,
+2021-02-19_07:19:39.17649 	       relname as relname,
+2021-02-19_07:19:39.18277 	       pg_total_relation_size(oid) bytes
+2021-02-19_07:19:39.19370 	  FROM pg_class
+2021-02-19_07:19:39.19976 	 WHERE relkind = 'r';
+2021-02-19_07:19:39.20548 	
+2021-02-19_07:19:39.20967 LOG:  could not send data to client: Broken pipe
+2021-02-19_07:19:39.21826 STATEMENT:  SELECT relnamespace::regnamespace as schemaname,
+2021-02-19_07:19:39.22946 	       relname as relname,
+2021-02-19_07:19:39.23832 	       pg_total_relation_size(oid) bytes
+2021-02-19_07:19:39.24411 	  FROM pg_class
+2021-02-19_07:19:39.26401 	 WHERE relkind = 'r';
+2021-02-19_07:19:39.27094 	
+2021-02-19_07:19:39.28056 FATAL:  terminating connection due to administrator command
+2021-02-19_07:19:39.28385 FATAL:  terminating connection due to administrator command
+2021-02-19_07:19:39.28729 FATAL:  terminating connection due to administrator command
+2021-02-19_07:19:39.29046 STATEMENT:  SELECT relnamespace::regnamespace as schemaname,
+2021-02-19_07:19:39.29567 	       relname as relname,
+2021-02-19_07:19:39.30185 	       pg_total_relation_size(oid) bytes
+2021-02-19_07:19:39.30318 	  FROM pg_class
+2021-02-19_07:19:39.30599 	 WHERE relkind = 'r';
+2021-02-19_07:19:39.32353 	
+2021-02-19_07:19:39.78193 LOG:  background worker "logical replication launcher" (PID 1103) exited with exit code 1
+2021-02-19_07:19:39.78939 LOG:  shutting down
+2021-02-19_07:19:39.79475 FATAL:  the database system is shutting down
+2021-02-19_07:19:39.80615 FATAL:  the database system is shutting down
+2021-02-19_07:19:39.81198 FATAL:  the database system is shutting down
+2021-02-19_07:19:39.81667 FATAL:  the database system is shutting down
+2021-02-19_07:19:39.82128 FATAL:  the database system is shutting down
+2021-02-19_07:19:40.15211 LOG:  database system is shut down
+2021-02-19_07:19:40.29414 LOG:  starting PostgreSQL 12.5 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 5.4.0-6ubuntu1~16.04.12) 5.4.0 20160609, 64-bit
+2021-02-19_07:19:40.31004 LOG:  listening on Unix socket "/var/opt/gitlab/postgresql/.s.PGSQL.5432"
+2021-02-19_07:19:40.79142 LOG:  database system was shut down at 2021-02-19 07:19:39 GMT
+2021-02-19_07:19:40.95612 LOG:  database system is ready to accept connections
+2021-02-19_07:20:41.48382 WARNING:  could not open statistics file "pg_stat_tmp/global.stat": Operation not permitted

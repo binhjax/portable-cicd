@@ -1,0 +1,25 @@
+2021-02-19_08:27:10.57533 LOG:  starting PostgreSQL 12.5 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 5.4.0-6ubuntu1~16.04.12) 5.4.0 20160609, 64-bit
+2021-02-19_08:27:10.60051 LOG:  listening on Unix socket "/var/opt/gitlab/postgresql/.s.PGSQL.5432"
+2021-02-19_08:27:10.95791 LOG:  database system was interrupted; last known up at 2021-02-19 08:23:16 GMT
+2021-02-19_08:27:14.55898 FATAL:  the database system is starting up
+2021-02-19_08:27:19.59269 FATAL:  the database system is starting up
+2021-02-19_08:27:24.64309 FATAL:  the database system is starting up
+2021-02-19_08:27:29.68055 FATAL:  the database system is starting up
+2021-02-19_08:27:34.70106 FATAL:  the database system is starting up
+2021-02-19_08:27:37.25341 LOG:  could not open file "./server.crt": Operation not permitted
+2021-02-19_08:27:37.25475 LOG:  could not open file "./server.key": Operation not permitted
+2021-02-19_08:27:37.28355 LOG:  database system was not properly shut down; automatic recovery in progress
+2021-02-19_08:27:37.47952 LOG:  invalid record length at 0/2F77E70: wanted 24, got 0
+2021-02-19_08:27:37.48230 LOG:  redo is not required
+2021-02-19_08:27:37.51829 LOG:  database system is ready to accept connections
+2021-02-19_08:27:39.75263 LOG:  no match in usermap "gitlab" for user "gitlab" authenticated as "root"
+2021-02-19_08:27:39.75357 FATAL:  Peer authentication failed for user "gitlab"
+2021-02-19_08:27:39.75478 DETAIL:  Connection matched pg_hba.conf line 70: "local   all         all                               peer map=gitlab"
+2021-02-19_08:27:40.09103 LOG:  no match in usermap "gitlab" for user "gitlab" authenticated as "root"
+2021-02-19_08:27:40.09235 FATAL:  Peer authentication failed for user "gitlab"
+2021-02-19_08:27:40.09346 DETAIL:  Connection matched pg_hba.conf line 70: "local   all         all                               peer map=gitlab"
+2021-02-19_08:27:40.19511 LOG:  no match in usermap "gitlab" for user "gitlab" authenticated as "root"
+2021-02-19_08:27:40.19672 FATAL:  Peer authentication failed for user "gitlab"
+2021-02-19_08:27:40.19828 DETAIL:  Connection matched pg_hba.conf line 70: "local   all         all                               peer map=gitlab"
+2021-02-19_08:29:44.20806 WARNING:  could not open statistics file "pg_stat_tmp/global.stat": Operation not permitted
+2021-02-19_08:29:51.01595 WARNING:  could not open statistics file "pg_stat_tmp/global.stat": Operation not permitted

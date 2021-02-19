@@ -1,0 +1,17 @@
+2021-02-19_08:27:48.33733 {"timestamp":"2021-02-19T08:27:48.336Z","pid":1070,"message":"Puma starting in cluster mode..."}
+2021-02-19_08:27:48.33873 {"timestamp":"2021-02-19T08:27:48.337Z","pid":1070,"message":"* Puma version: 5.1.1 (ruby 2.7.2-p137) (\"At Your Service\")"}
+2021-02-19_08:27:48.34047 {"timestamp":"2021-02-19T08:27:48.337Z","pid":1070,"message":"*  Min threads: 4"}
+2021-02-19_08:27:48.34204 {"timestamp":"2021-02-19T08:27:48.337Z","pid":1070,"message":"*  Max threads: 4"}
+2021-02-19_08:27:48.34302 {"timestamp":"2021-02-19T08:27:48.337Z","pid":1070,"message":"*  Environment: production"}
+2021-02-19_08:27:48.34410 {"timestamp":"2021-02-19T08:27:48.337Z","pid":1070,"message":"*   Master PID: 1070"}
+2021-02-19_08:27:48.35054 {"timestamp":"2021-02-19T08:27:48.337Z","pid":1070,"message":"*      Workers: 4"}
+2021-02-19_08:27:48.35199 {"timestamp":"2021-02-19T08:27:48.337Z","pid":1070,"message":"*     Restarts: (✔) hot (✖) phased"}
+2021-02-19_08:27:48.35294 {"timestamp":"2021-02-19T08:27:48.337Z","pid":1070,"message":"* Preloading application"}
+2021-02-19_08:30:12.79912 {"timestamp":"2021-02-19T08:30:12.797Z","pid":1070,"message":"* Listening on unix:///var/opt/gitlab/gitlab-rails/sockets/gitlab.socket"}
+2021-02-19_08:30:12.80939 bundler: failed to load command: puma (/opt/gitlab/embedded/bin/puma)
+2021-02-19_08:30:12.81206 Errno::EADDRINUSE: Address already in use - bind(2) for "127.0.0.1" port 8080
+2021-02-19_08:30:12.81652   /opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/puma-5.1.1/lib/puma/binder.rb:288:in `initialize'
+2021-02-19_08:30:12.82104   /opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/puma-5.1.1/lib/puma/binder.rb:288:in `new'
+2021-02-19_08:30:12.82357   /opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/puma-5.1.1/lib/puma/binder.rb:288:in `add_tcp_listener'
+2021-02-19_08:30:12.82852   /opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/puma-5.1.1/lib/puma/binder.rb:168:in `block in parse'
+2021-02-19_08:30:12.83090   /opt/gitlab/embedded/lib/ruby/gems/2.7.0/gems/puma-5.1.1/lib/puma/binder.rb:152:in `each'
