@@ -1,0 +1,35 @@
+version: '3.5'
+services:
+  gitlab:
+    image: gitlab/gitlab-ce:latest
+    hostname: localhost
+    restart: unless-stopped
+    environment:
+      GITLAB_OMNIBUS_CONFIG: |
+        gitlab_rails['gitlab_shell_ssh_port'] = 8822
+    ports:
+      - "80:80"
+      - "8822:22"
+    volumes:
+      - ./data/gitlab/config:/etc/gitlab
+      - ./data/gitlab/data:/var/opt/gitlab
+      - ./data/gitlab/logs:/var/log/gitlab
+
+  # gitlab-runner:
+  #   image: gitlab/gitlab-runner:alpine
+  #   restart: unless-stopped
+  #   depends_on:
+  #     - gitlab
+  #   volumes:
+  #     - ./data/gitlab-runner/config:/etc/gitlab-runner
+  #     - /var/run/docker.sock:/var/run/docker.sock
+
+  # dns-proxy:
+  #   image: defreitas/dns-proxy-server
+  #   hostname: dns.proxy
+  #   ports:
+  #     - 5380:5380 
+  #     - 53:53/udp
+  #   volumes:
+  #     - /var/run/docker.sock:/var/run/docker.sock
+      # - /etc/resolv.conf:/etc/resolv.conf

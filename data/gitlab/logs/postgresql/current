@@ -1,0 +1,38 @@
+2021-02-19_04:03:35.10619 LOG:  starting PostgreSQL 12.5 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 5.4.0-6ubuntu1~16.04.12) 5.4.0 20160609, 64-bit
+2021-02-19_04:03:35.12181 LOG:  listening on Unix socket "/var/opt/gitlab/postgresql/.s.PGSQL.5432"
+2021-02-19_04:03:35.54158 LOG:  database system was interrupted; last known up at 2021-02-19 03:49:14 GMT
+2021-02-19_04:03:39.23352 FATAL:  the database system is starting up
+2021-02-19_04:03:44.25214 FATAL:  the database system is starting up
+2021-02-19_04:03:49.25092 FATAL:  the database system is starting up
+2021-02-19_04:03:54.28349 FATAL:  the database system is starting up
+2021-02-19_04:03:56.88906 LOG:  could not open file "./server.crt": Operation not permitted
+2021-02-19_04:03:56.89032 LOG:  could not open file "./server.key": Operation not permitted
+2021-02-19_04:03:56.92393 LOG:  database system was not properly shut down; automatic recovery in progress
+2021-02-19_04:03:57.12217 LOG:  redo starts at 0/317E230
+2021-02-19_04:03:57.12829 LOG:  invalid record length at 0/317EE20: wanted 24, got 0
+2021-02-19_04:03:57.12914 LOG:  redo done at 0/317EDF8
+2021-02-19_04:03:57.15479 LOG:  database system is ready to accept connections
+2021-02-19_04:03:59.34082 LOG:  no match in usermap "gitlab" for user "gitlab" authenticated as "root"
+2021-02-19_04:03:59.34198 FATAL:  Peer authentication failed for user "gitlab"
+2021-02-19_04:03:59.34344 DETAIL:  Connection matched pg_hba.conf line 70: "local   all         all                               peer map=gitlab"
+2021-02-19_04:03:59.76546 LOG:  no match in usermap "gitlab" for user "gitlab" authenticated as "root"
+2021-02-19_04:03:59.76666 FATAL:  Peer authentication failed for user "gitlab"
+2021-02-19_04:03:59.76782 DETAIL:  Connection matched pg_hba.conf line 70: "local   all         all                               peer map=gitlab"
+2021-02-19_04:03:59.92223 LOG:  no match in usermap "gitlab" for user "gitlab" authenticated as "root"
+2021-02-19_04:03:59.92440 FATAL:  Peer authentication failed for user "gitlab"
+2021-02-19_04:03:59.92532 DETAIL:  Connection matched pg_hba.conf line 70: "local   all         all                               peer map=gitlab"
+2021-02-19_04:04:57.26489 WARNING:  could not open statistics file "pg_stat_tmp/global.stat": Operation not permitted
+2021-02-19_04:06:32.64170 LOG:  could not send data to client: Broken pipe
+2021-02-19_04:06:32.64579 STATEMENT:  SELECT relnamespace::regnamespace as schemaname,
+2021-02-19_04:06:32.64692 	       relname as relname,
+2021-02-19_04:06:32.64818 	       pg_total_relation_size(oid) bytes
+2021-02-19_04:06:32.64982 	  FROM pg_class
+2021-02-19_04:06:32.65156 	 WHERE relkind = 'r';
+2021-02-19_04:06:32.67310 	
+2021-02-19_04:06:32.67799 FATAL:  connection to client lost
+2021-02-19_04:06:32.68106 STATEMENT:  SELECT relnamespace::regnamespace as schemaname,
+2021-02-19_04:06:32.68407 	       relname as relname,
+2021-02-19_04:06:32.68750 	       pg_total_relation_size(oid) bytes
+2021-02-19_04:06:32.68875 	  FROM pg_class
+2021-02-19_04:06:32.68980 	 WHERE relkind = 'r';
+2021-02-19_04:06:32.69094 	
