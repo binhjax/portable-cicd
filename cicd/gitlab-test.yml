@@ -21,7 +21,9 @@ build-job:
     - go mod vendor
     - go build main.go 
   only:
-     - testing
-     - staging
-     - master
-     - admin
+    refs:
+      - master
+    variables:
+      - $CI_COMMIT_MESSAGE =~ /run-build-job/
+
+
