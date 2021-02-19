@@ -28,7 +28,7 @@ RUN echo "http://dl-cdn.alpinelinux.org/alpine/edge/testing/" >> /etc/apk/reposi
   sshpass \
   shadow 
 
-RUN python3 -m pip install --no-use-pep517 cryptography 
+RUN python3 -m pip install cryptography 
 
 # install Docker:
 RUN curl https://download.docker.com/linux/static/stable/x86_64/docker-$DOCKER_VERSION.tgz | \
