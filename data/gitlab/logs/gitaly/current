@@ -3830,3 +3830,513 @@ time="2021-02-19T04:10:30Z" level=fatal msg="load config" config_path=/var/opt/g
 {"level":"info","msg":"finding gitaly","pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2021-02-19T04:10:30Z","wrapper":7858}
 {"level":"info","msg":"spawning a process","time":"2021-02-19T04:10:30Z","wrapper":7858}
 {"gitaly":7864,"level":"info","msg":"monitoring gitaly","time":"2021-02-19T04:10:30Z","wrapper":7858}
+time="2021-02-19T04:10:31Z" level=info msg="Starting Gitaly" version="Gitaly, version 13.8.4"
+time="2021-02-19T04:10:31Z" level=warning msg="git path not configured. Using default path resolution" resolvedPath=/opt/gitlab/embedded/bin/git
+time="2021-02-19T04:10:31Z" level=fatal msg="load config" config_path=/var/opt/gitlab/gitaly/config.toml error="socket could not be created in /var/opt/gitlab/gitaly/internal_sockets: listen unix /var/opt/gitlab/gitaly/internal_sockets/test-88a5f3aa.sock: bind: invalid argument"
+{"gitaly":7864,"level":"warning","msg":"forwarding signal","signal":17,"time":"2021-02-19T04:10:31Z","wrapper":7858}
+{"error":"os: process already finished","gitaly":7864,"level":"error","msg":"can't forward the signal","signal":17,"time":"2021-02-19T04:10:31Z","wrapper":7858}
+{"gitaly":7864,"level":"error","msg":"wrapper for gitaly shutting down","time":"2021-02-19T04:10:32Z","wrapper":7858}
+{"level":"info","msg":"Wrapper started","time":"2021-02-19T04:10:32Z","wrapper":7876}
+{"level":"info","msg":"finding gitaly","pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2021-02-19T04:10:32Z","wrapper":7876}
+{"level":"info","msg":"spawning a process","time":"2021-02-19T04:10:32Z","wrapper":7876}
+{"gitaly":7882,"level":"info","msg":"monitoring gitaly","time":"2021-02-19T04:10:32Z","wrapper":7876}
+time="2021-02-19T04:10:32Z" level=info msg="Starting Gitaly" version="Gitaly, version 13.8.4"
+time="2021-02-19T04:10:32Z" level=warning msg="git path not configured. Using default path resolution" resolvedPath=/opt/gitlab/embedded/bin/git
+time="2021-02-19T04:10:32Z" level=fatal msg="load config" config_path=/var/opt/gitlab/gitaly/config.toml error="socket could not be created in /var/opt/gitlab/gitaly/internal_sockets: listen unix /var/opt/gitlab/gitaly/internal_sockets/test-06100c0f.sock: bind: invalid argument"
+{"gitaly":7882,"level":"warning","msg":"forwarding signal","signal":17,"time":"2021-02-19T04:10:32Z","wrapper":7876}
+{"error":"os: process already finished","gitaly":7882,"level":"error","msg":"can't forward the signal","signal":17,"time":"2021-02-19T04:10:32Z","wrapper":7876}
+{"gitaly":7882,"level":"warning","msg":"forwarding signal","signal":23,"time":"2021-02-19T04:10:32Z","wrapper":7876}
+{"error":"os: process already finished","gitaly":7882,"level":"error","msg":"can't forward the signal","signal":23,"time":"2021-02-19T04:10:32Z","wrapper":7876}
+{"gitaly":7882,"level":"error","msg":"wrapper for gitaly shutting down","time":"2021-02-19T04:10:33Z","wrapper":7876}
+{"level":"info","msg":"Wrapper started","time":"2021-02-19T04:10:33Z","wrapper":7898}
+{"level":"info","msg":"finding gitaly","pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2021-02-19T04:10:33Z","wrapper":7898}
+{"level":"info","msg":"spawning a process","time":"2021-02-19T04:10:33Z","wrapper":7898}
+{"gitaly":7905,"level":"info","msg":"monitoring gitaly","time":"2021-02-19T04:10:33Z","wrapper":7898}
+time="2021-02-19T04:10:33Z" level=info msg="Starting Gitaly" version="Gitaly, version 13.8.4"
+time="2021-02-19T04:10:33Z" level=warning msg="git path not configured. Using default path resolution" resolvedPath=/opt/gitlab/embedded/bin/git
+time="2021-02-19T04:10:33Z" level=fatal msg="load config" config_path=/var/opt/gitlab/gitaly/config.toml error="socket could not be created in /var/opt/gitlab/gitaly/internal_sockets: listen unix /var/opt/gitlab/gitaly/internal_sockets/test-588db77d.sock: bind: invalid argument"
+{"gitaly":7905,"level":"warning","msg":"forwarding signal","signal":17,"time":"2021-02-19T04:10:33Z","wrapper":7898}
+{"error":"os: process already finished","gitaly":7905,"level":"error","msg":"can't forward the signal","signal":17,"time":"2021-02-19T04:10:33Z","wrapper":7898}
+{"gitaly":7905,"level":"error","msg":"wrapper for gitaly shutting down","time":"2021-02-19T04:10:34Z","wrapper":7898}
+{"level":"info","msg":"Wrapper started","time":"2021-02-19T04:10:34Z","wrapper":7915}
+{"level":"info","msg":"finding gitaly","pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2021-02-19T04:10:34Z","wrapper":7915}
+{"level":"info","msg":"spawning a process","time":"2021-02-19T04:10:34Z","wrapper":7915}
+{"gitaly":7921,"level":"info","msg":"monitoring gitaly","time":"2021-02-19T04:10:34Z","wrapper":7915}
+time="2021-02-19T04:10:34Z" level=info msg="Starting Gitaly" version="Gitaly, version 13.8.4"
+time="2021-02-19T04:10:34Z" level=warning msg="git path not configured. Using default path resolution" resolvedPath=/opt/gitlab/embedded/bin/git
+time="2021-02-19T04:10:34Z" level=fatal msg="load config" config_path=/var/opt/gitlab/gitaly/config.toml error="socket could not be created in /var/opt/gitlab/gitaly/internal_sockets: listen unix /var/opt/gitlab/gitaly/internal_sockets/test-5d3e9735.sock: bind: invalid argument"
+{"gitaly":7921,"level":"warning","msg":"forwarding signal","signal":17,"time":"2021-02-19T04:10:34Z","wrapper":7915}
+{"error":"os: process already finished","gitaly":7921,"level":"error","msg":"can't forward the signal","signal":17,"time":"2021-02-19T04:10:34Z","wrapper":7915}
+{"gitaly":7921,"level":"error","msg":"wrapper for gitaly shutting down","time":"2021-02-19T04:10:35Z","wrapper":7915}
+{"level":"info","msg":"Wrapper started","time":"2021-02-19T04:10:35Z","wrapper":7932}
+{"level":"info","msg":"finding gitaly","pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2021-02-19T04:10:35Z","wrapper":7932}
+{"level":"info","msg":"spawning a process","time":"2021-02-19T04:10:35Z","wrapper":7932}
+{"gitaly":7938,"level":"info","msg":"monitoring gitaly","time":"2021-02-19T04:10:35Z","wrapper":7932}
+time="2021-02-19T04:10:35Z" level=info msg="Starting Gitaly" version="Gitaly, version 13.8.4"
+time="2021-02-19T04:10:35Z" level=warning msg="git path not configured. Using default path resolution" resolvedPath=/opt/gitlab/embedded/bin/git
+time="2021-02-19T04:10:35Z" level=fatal msg="load config" config_path=/var/opt/gitlab/gitaly/config.toml error="socket could not be created in /var/opt/gitlab/gitaly/internal_sockets: listen unix /var/opt/gitlab/gitaly/internal_sockets/test-89078546.sock: bind: invalid argument"
+{"gitaly":7938,"level":"warning","msg":"forwarding signal","signal":17,"time":"2021-02-19T04:10:35Z","wrapper":7932}
+{"error":"os: process already finished","gitaly":7938,"level":"error","msg":"can't forward the signal","signal":17,"time":"2021-02-19T04:10:35Z","wrapper":7932}
+{"gitaly":7938,"level":"error","msg":"wrapper for gitaly shutting down","time":"2021-02-19T04:10:36Z","wrapper":7932}
+{"level":"info","msg":"Wrapper started","time":"2021-02-19T04:10:36Z","wrapper":7956}
+{"level":"info","msg":"finding gitaly","pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2021-02-19T04:10:36Z","wrapper":7956}
+{"level":"info","msg":"spawning a process","time":"2021-02-19T04:10:36Z","wrapper":7956}
+{"gitaly":7962,"level":"info","msg":"monitoring gitaly","time":"2021-02-19T04:10:36Z","wrapper":7956}
+time="2021-02-19T04:10:36Z" level=info msg="Starting Gitaly" version="Gitaly, version 13.8.4"
+time="2021-02-19T04:10:36Z" level=warning msg="git path not configured. Using default path resolution" resolvedPath=/opt/gitlab/embedded/bin/git
+time="2021-02-19T04:10:36Z" level=fatal msg="load config" config_path=/var/opt/gitlab/gitaly/config.toml error="socket could not be created in /var/opt/gitlab/gitaly/internal_sockets: listen unix /var/opt/gitlab/gitaly/internal_sockets/test-fae552d9.sock: bind: invalid argument"
+{"gitaly":7962,"level":"warning","msg":"forwarding signal","signal":17,"time":"2021-02-19T04:10:36Z","wrapper":7956}
+{"error":"os: process already finished","gitaly":7962,"level":"error","msg":"can't forward the signal","signal":17,"time":"2021-02-19T04:10:36Z","wrapper":7956}
+{"gitaly":7962,"level":"error","msg":"wrapper for gitaly shutting down","time":"2021-02-19T04:10:37Z","wrapper":7956}
+{"level":"info","msg":"Wrapper started","time":"2021-02-19T04:10:37Z","wrapper":7974}
+{"level":"info","msg":"finding gitaly","pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2021-02-19T04:10:37Z","wrapper":7974}
+{"level":"info","msg":"spawning a process","time":"2021-02-19T04:10:37Z","wrapper":7974}
+{"gitaly":7981,"level":"info","msg":"monitoring gitaly","time":"2021-02-19T04:10:37Z","wrapper":7974}
+time="2021-02-19T04:10:37Z" level=info msg="Starting Gitaly" version="Gitaly, version 13.8.4"
+time="2021-02-19T04:10:37Z" level=warning msg="git path not configured. Using default path resolution" resolvedPath=/opt/gitlab/embedded/bin/git
+time="2021-02-19T04:10:37Z" level=fatal msg="load config" config_path=/var/opt/gitlab/gitaly/config.toml error="socket could not be created in /var/opt/gitlab/gitaly/internal_sockets: listen unix /var/opt/gitlab/gitaly/internal_sockets/test-b3cf3a65.sock: bind: invalid argument"
+{"gitaly":7981,"level":"warning","msg":"forwarding signal","signal":17,"time":"2021-02-19T04:10:37Z","wrapper":7974}
+{"error":"os: process already finished","gitaly":7981,"level":"error","msg":"can't forward the signal","signal":17,"time":"2021-02-19T04:10:37Z","wrapper":7974}
+{"gitaly":7981,"level":"error","msg":"wrapper for gitaly shutting down","time":"2021-02-19T04:10:38Z","wrapper":7974}
+{"level":"info","msg":"Wrapper started","time":"2021-02-19T04:10:38Z","wrapper":7992}
+{"level":"info","msg":"finding gitaly","pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2021-02-19T04:10:38Z","wrapper":7992}
+{"level":"info","msg":"spawning a process","time":"2021-02-19T04:10:38Z","wrapper":7992}
+{"gitaly":7998,"level":"info","msg":"monitoring gitaly","time":"2021-02-19T04:10:38Z","wrapper":7992}
+time="2021-02-19T04:10:38Z" level=info msg="Starting Gitaly" version="Gitaly, version 13.8.4"
+time="2021-02-19T04:10:38Z" level=warning msg="git path not configured. Using default path resolution" resolvedPath=/opt/gitlab/embedded/bin/git
+time="2021-02-19T04:10:38Z" level=fatal msg="load config" config_path=/var/opt/gitlab/gitaly/config.toml error="socket could not be created in /var/opt/gitlab/gitaly/internal_sockets: listen unix /var/opt/gitlab/gitaly/internal_sockets/test-e63fa8d0.sock: bind: invalid argument"
+{"gitaly":7998,"level":"warning","msg":"forwarding signal","signal":17,"time":"2021-02-19T04:10:38Z","wrapper":7992}
+{"error":"os: process already finished","gitaly":7998,"level":"error","msg":"can't forward the signal","signal":17,"time":"2021-02-19T04:10:38Z","wrapper":7992}
+{"gitaly":7998,"level":"error","msg":"wrapper for gitaly shutting down","time":"2021-02-19T04:10:39Z","wrapper":7992}
+{"level":"info","msg":"Wrapper started","time":"2021-02-19T04:10:39Z","wrapper":8018}
+{"level":"info","msg":"finding gitaly","pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2021-02-19T04:10:39Z","wrapper":8018}
+{"level":"info","msg":"spawning a process","time":"2021-02-19T04:10:39Z","wrapper":8018}
+{"gitaly":8025,"level":"info","msg":"monitoring gitaly","time":"2021-02-19T04:10:39Z","wrapper":8018}
+time="2021-02-19T04:10:39Z" level=info msg="Starting Gitaly" version="Gitaly, version 13.8.4"
+time="2021-02-19T04:10:39Z" level=warning msg="git path not configured. Using default path resolution" resolvedPath=/opt/gitlab/embedded/bin/git
+time="2021-02-19T04:10:39Z" level=fatal msg="load config" config_path=/var/opt/gitlab/gitaly/config.toml error="socket could not be created in /var/opt/gitlab/gitaly/internal_sockets: listen unix /var/opt/gitlab/gitaly/internal_sockets/test-63881f10.sock: bind: invalid argument"
+{"gitaly":8025,"level":"warning","msg":"forwarding signal","signal":17,"time":"2021-02-19T04:10:39Z","wrapper":8018}
+{"error":"os: process already finished","gitaly":8025,"level":"error","msg":"can't forward the signal","signal":17,"time":"2021-02-19T04:10:39Z","wrapper":8018}
+{"gitaly":8025,"level":"error","msg":"wrapper for gitaly shutting down","time":"2021-02-19T04:10:40Z","wrapper":8018}
+{"level":"info","msg":"Wrapper started","time":"2021-02-19T04:10:40Z","wrapper":8036}
+{"level":"info","msg":"finding gitaly","pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2021-02-19T04:10:40Z","wrapper":8036}
+{"level":"info","msg":"spawning a process","time":"2021-02-19T04:10:40Z","wrapper":8036}
+{"gitaly":8042,"level":"info","msg":"monitoring gitaly","time":"2021-02-19T04:10:40Z","wrapper":8036}
+time="2021-02-19T04:10:40Z" level=info msg="Starting Gitaly" version="Gitaly, version 13.8.4"
+time="2021-02-19T04:10:40Z" level=warning msg="git path not configured. Using default path resolution" resolvedPath=/opt/gitlab/embedded/bin/git
+time="2021-02-19T04:10:40Z" level=fatal msg="load config" config_path=/var/opt/gitlab/gitaly/config.toml error="socket could not be created in /var/opt/gitlab/gitaly/internal_sockets: listen unix /var/opt/gitlab/gitaly/internal_sockets/test-e3da0706.sock: bind: invalid argument"
+{"gitaly":8042,"level":"warning","msg":"forwarding signal","signal":17,"time":"2021-02-19T04:10:40Z","wrapper":8036}
+{"error":"os: process already finished","gitaly":8042,"level":"error","msg":"can't forward the signal","signal":17,"time":"2021-02-19T04:10:40Z","wrapper":8036}
+{"gitaly":8042,"level":"error","msg":"wrapper for gitaly shutting down","time":"2021-02-19T04:10:41Z","wrapper":8036}
+{"level":"info","msg":"Wrapper started","time":"2021-02-19T04:10:41Z","wrapper":8055}
+{"level":"info","msg":"finding gitaly","pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2021-02-19T04:10:41Z","wrapper":8055}
+{"level":"info","msg":"spawning a process","time":"2021-02-19T04:10:41Z","wrapper":8055}
+{"gitaly":8061,"level":"info","msg":"monitoring gitaly","time":"2021-02-19T04:10:41Z","wrapper":8055}
+time="2021-02-19T04:10:41Z" level=info msg="Starting Gitaly" version="Gitaly, version 13.8.4"
+time="2021-02-19T04:10:41Z" level=warning msg="git path not configured. Using default path resolution" resolvedPath=/opt/gitlab/embedded/bin/git
+time="2021-02-19T04:10:41Z" level=fatal msg="load config" config_path=/var/opt/gitlab/gitaly/config.toml error="socket could not be created in /var/opt/gitlab/gitaly/internal_sockets: listen unix /var/opt/gitlab/gitaly/internal_sockets/test-0e923242.sock: bind: invalid argument"
+{"gitaly":8061,"level":"warning","msg":"forwarding signal","signal":17,"time":"2021-02-19T04:10:41Z","wrapper":8055}
+{"error":"os: process already finished","gitaly":8061,"level":"error","msg":"can't forward the signal","signal":17,"time":"2021-02-19T04:10:41Z","wrapper":8055}
+{"gitaly":8061,"level":"warning","msg":"forwarding signal","signal":23,"time":"2021-02-19T04:10:41Z","wrapper":8055}
+{"error":"os: process already finished","gitaly":8061,"level":"error","msg":"can't forward the signal","signal":23,"time":"2021-02-19T04:10:41Z","wrapper":8055}
+{"gitaly":8061,"level":"error","msg":"wrapper for gitaly shutting down","time":"2021-02-19T04:10:42Z","wrapper":8055}
+{"level":"info","msg":"Wrapper started","time":"2021-02-19T04:10:42Z","wrapper":8078}
+{"level":"info","msg":"finding gitaly","pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2021-02-19T04:10:42Z","wrapper":8078}
+{"level":"info","msg":"spawning a process","time":"2021-02-19T04:10:42Z","wrapper":8078}
+{"gitaly":8084,"level":"info","msg":"monitoring gitaly","time":"2021-02-19T04:10:42Z","wrapper":8078}
+time="2021-02-19T04:10:42Z" level=info msg="Starting Gitaly" version="Gitaly, version 13.8.4"
+time="2021-02-19T04:10:42Z" level=warning msg="git path not configured. Using default path resolution" resolvedPath=/opt/gitlab/embedded/bin/git
+time="2021-02-19T04:10:42Z" level=fatal msg="load config" config_path=/var/opt/gitlab/gitaly/config.toml error="socket could not be created in /var/opt/gitlab/gitaly/internal_sockets: listen unix /var/opt/gitlab/gitaly/internal_sockets/test-2c084e24.sock: bind: invalid argument"
+{"gitaly":8084,"level":"warning","msg":"forwarding signal","signal":17,"time":"2021-02-19T04:10:42Z","wrapper":8078}
+{"error":"os: process already finished","gitaly":8084,"level":"error","msg":"can't forward the signal","signal":17,"time":"2021-02-19T04:10:42Z","wrapper":8078}
+{"gitaly":8084,"level":"error","msg":"wrapper for gitaly shutting down","time":"2021-02-19T04:10:43Z","wrapper":8078}
+{"level":"info","msg":"Wrapper started","time":"2021-02-19T04:10:43Z","wrapper":8098}
+{"level":"info","msg":"finding gitaly","pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2021-02-19T04:10:43Z","wrapper":8098}
+{"level":"info","msg":"spawning a process","time":"2021-02-19T04:10:43Z","wrapper":8098}
+{"gitaly":8105,"level":"info","msg":"monitoring gitaly","time":"2021-02-19T04:10:43Z","wrapper":8098}
+time="2021-02-19T04:10:43Z" level=info msg="Starting Gitaly" version="Gitaly, version 13.8.4"
+time="2021-02-19T04:10:43Z" level=warning msg="git path not configured. Using default path resolution" resolvedPath=/opt/gitlab/embedded/bin/git
+time="2021-02-19T04:10:43Z" level=fatal msg="load config" config_path=/var/opt/gitlab/gitaly/config.toml error="socket could not be created in /var/opt/gitlab/gitaly/internal_sockets: listen unix /var/opt/gitlab/gitaly/internal_sockets/test-ded61ae4.sock: bind: invalid argument"
+{"gitaly":8105,"level":"warning","msg":"forwarding signal","signal":17,"time":"2021-02-19T04:10:43Z","wrapper":8098}
+{"error":"os: process already finished","gitaly":8105,"level":"error","msg":"can't forward the signal","signal":17,"time":"2021-02-19T04:10:43Z","wrapper":8098}
+{"gitaly":8105,"level":"error","msg":"wrapper for gitaly shutting down","time":"2021-02-19T04:10:44Z","wrapper":8098}
+{"level":"info","msg":"Wrapper started","time":"2021-02-19T04:10:44Z","wrapper":8116}
+{"level":"info","msg":"finding gitaly","pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2021-02-19T04:10:44Z","wrapper":8116}
+{"level":"info","msg":"spawning a process","time":"2021-02-19T04:10:44Z","wrapper":8116}
+{"gitaly":8123,"level":"info","msg":"monitoring gitaly","time":"2021-02-19T04:10:44Z","wrapper":8116}
+time="2021-02-19T04:10:44Z" level=info msg="Starting Gitaly" version="Gitaly, version 13.8.4"
+time="2021-02-19T04:10:44Z" level=warning msg="git path not configured. Using default path resolution" resolvedPath=/opt/gitlab/embedded/bin/git
+time="2021-02-19T04:10:44Z" level=fatal msg="load config" config_path=/var/opt/gitlab/gitaly/config.toml error="socket could not be created in /var/opt/gitlab/gitaly/internal_sockets: listen unix /var/opt/gitlab/gitaly/internal_sockets/test-97a30b46.sock: bind: invalid argument"
+{"gitaly":8123,"level":"warning","msg":"forwarding signal","signal":17,"time":"2021-02-19T04:10:44Z","wrapper":8116}
+{"error":"os: process already finished","gitaly":8123,"level":"error","msg":"can't forward the signal","signal":17,"time":"2021-02-19T04:10:44Z","wrapper":8116}
+{"gitaly":8123,"level":"error","msg":"wrapper for gitaly shutting down","time":"2021-02-19T04:10:45Z","wrapper":8116}
+{"level":"info","msg":"Wrapper started","time":"2021-02-19T04:10:45Z","wrapper":8136}
+{"level":"info","msg":"finding gitaly","pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2021-02-19T04:10:45Z","wrapper":8136}
+{"level":"info","msg":"spawning a process","time":"2021-02-19T04:10:45Z","wrapper":8136}
+{"gitaly":8142,"level":"info","msg":"monitoring gitaly","time":"2021-02-19T04:10:45Z","wrapper":8136}
+time="2021-02-19T04:10:45Z" level=info msg="Starting Gitaly" version="Gitaly, version 13.8.4"
+time="2021-02-19T04:10:45Z" level=warning msg="git path not configured. Using default path resolution" resolvedPath=/opt/gitlab/embedded/bin/git
+time="2021-02-19T04:10:45Z" level=fatal msg="load config" config_path=/var/opt/gitlab/gitaly/config.toml error="socket could not be created in /var/opt/gitlab/gitaly/internal_sockets: listen unix /var/opt/gitlab/gitaly/internal_sockets/test-ccd8c8fb.sock: bind: invalid argument"
+{"gitaly":8142,"level":"warning","msg":"forwarding signal","signal":17,"time":"2021-02-19T04:10:45Z","wrapper":8136}
+{"error":"os: process already finished","gitaly":8142,"level":"error","msg":"can't forward the signal","signal":17,"time":"2021-02-19T04:10:45Z","wrapper":8136}
+{"gitaly":8142,"level":"error","msg":"wrapper for gitaly shutting down","time":"2021-02-19T04:10:46Z","wrapper":8136}
+{"level":"info","msg":"Wrapper started","time":"2021-02-19T04:10:47Z","wrapper":8153}
+{"level":"info","msg":"finding gitaly","pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2021-02-19T04:10:47Z","wrapper":8153}
+{"level":"info","msg":"spawning a process","time":"2021-02-19T04:10:47Z","wrapper":8153}
+{"gitaly":8159,"level":"info","msg":"monitoring gitaly","time":"2021-02-19T04:10:47Z","wrapper":8153}
+time="2021-02-19T04:10:47Z" level=info msg="Starting Gitaly" version="Gitaly, version 13.8.4"
+time="2021-02-19T04:10:47Z" level=warning msg="git path not configured. Using default path resolution" resolvedPath=/opt/gitlab/embedded/bin/git
+time="2021-02-19T04:10:47Z" level=fatal msg="load config" config_path=/var/opt/gitlab/gitaly/config.toml error="socket could not be created in /var/opt/gitlab/gitaly/internal_sockets: listen unix /var/opt/gitlab/gitaly/internal_sockets/test-c0729b47.sock: bind: invalid argument"
+{"gitaly":8159,"level":"warning","msg":"forwarding signal","signal":17,"time":"2021-02-19T04:10:47Z","wrapper":8153}
+{"error":"os: process already finished","gitaly":8159,"level":"error","msg":"can't forward the signal","signal":17,"time":"2021-02-19T04:10:47Z","wrapper":8153}
+{"gitaly":8159,"level":"error","msg":"wrapper for gitaly shutting down","time":"2021-02-19T04:10:48Z","wrapper":8153}
+{"level":"info","msg":"Wrapper started","time":"2021-02-19T04:10:48Z","wrapper":8175}
+{"level":"info","msg":"finding gitaly","pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2021-02-19T04:10:48Z","wrapper":8175}
+{"level":"info","msg":"spawning a process","time":"2021-02-19T04:10:48Z","wrapper":8175}
+{"gitaly":8181,"level":"info","msg":"monitoring gitaly","time":"2021-02-19T04:10:48Z","wrapper":8175}
+time="2021-02-19T04:10:48Z" level=info msg="Starting Gitaly" version="Gitaly, version 13.8.4"
+time="2021-02-19T04:10:48Z" level=warning msg="git path not configured. Using default path resolution" resolvedPath=/opt/gitlab/embedded/bin/git
+time="2021-02-19T04:10:48Z" level=fatal msg="load config" config_path=/var/opt/gitlab/gitaly/config.toml error="socket could not be created in /var/opt/gitlab/gitaly/internal_sockets: listen unix /var/opt/gitlab/gitaly/internal_sockets/test-3ec92509.sock: bind: invalid argument"
+{"gitaly":8181,"level":"warning","msg":"forwarding signal","signal":17,"time":"2021-02-19T04:10:48Z","wrapper":8175}
+{"error":"os: process already finished","gitaly":8181,"level":"error","msg":"can't forward the signal","signal":17,"time":"2021-02-19T04:10:48Z","wrapper":8175}
+{"gitaly":8181,"level":"error","msg":"wrapper for gitaly shutting down","time":"2021-02-19T04:10:49Z","wrapper":8175}
+{"level":"info","msg":"Wrapper started","time":"2021-02-19T04:10:49Z","wrapper":8194}
+{"level":"info","msg":"finding gitaly","pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2021-02-19T04:10:49Z","wrapper":8194}
+{"level":"info","msg":"spawning a process","time":"2021-02-19T04:10:49Z","wrapper":8194}
+{"gitaly":8200,"level":"info","msg":"monitoring gitaly","time":"2021-02-19T04:10:49Z","wrapper":8194}
+time="2021-02-19T04:10:49Z" level=info msg="Starting Gitaly" version="Gitaly, version 13.8.4"
+time="2021-02-19T04:10:49Z" level=warning msg="git path not configured. Using default path resolution" resolvedPath=/opt/gitlab/embedded/bin/git
+time="2021-02-19T04:10:50Z" level=fatal msg="load config" config_path=/var/opt/gitlab/gitaly/config.toml error="socket could not be created in /var/opt/gitlab/gitaly/internal_sockets: listen unix /var/opt/gitlab/gitaly/internal_sockets/test-5b574a74.sock: bind: invalid argument"
+{"gitaly":8200,"level":"warning","msg":"forwarding signal","signal":17,"time":"2021-02-19T04:10:50Z","wrapper":8194}
+{"error":"os: process already finished","gitaly":8200,"level":"error","msg":"can't forward the signal","signal":17,"time":"2021-02-19T04:10:50Z","wrapper":8194}
+{"gitaly":8200,"level":"error","msg":"wrapper for gitaly shutting down","time":"2021-02-19T04:10:50Z","wrapper":8194}
+{"level":"info","msg":"Wrapper started","time":"2021-02-19T04:10:50Z","wrapper":8212}
+{"level":"info","msg":"finding gitaly","pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2021-02-19T04:10:50Z","wrapper":8212}
+{"level":"info","msg":"spawning a process","time":"2021-02-19T04:10:50Z","wrapper":8212}
+{"gitaly":8217,"level":"info","msg":"monitoring gitaly","time":"2021-02-19T04:10:50Z","wrapper":8212}
+time="2021-02-19T04:10:51Z" level=info msg="Starting Gitaly" version="Gitaly, version 13.8.4"
+time="2021-02-19T04:10:51Z" level=warning msg="git path not configured. Using default path resolution" resolvedPath=/opt/gitlab/embedded/bin/git
+time="2021-02-19T04:10:51Z" level=fatal msg="load config" config_path=/var/opt/gitlab/gitaly/config.toml error="socket could not be created in /var/opt/gitlab/gitaly/internal_sockets: listen unix /var/opt/gitlab/gitaly/internal_sockets/test-e7908478.sock: bind: invalid argument"
+{"gitaly":8217,"level":"warning","msg":"forwarding signal","signal":17,"time":"2021-02-19T04:10:51Z","wrapper":8212}
+{"error":"os: process already finished","gitaly":8217,"level":"error","msg":"can't forward the signal","signal":17,"time":"2021-02-19T04:10:51Z","wrapper":8212}
+{"gitaly":8217,"level":"error","msg":"wrapper for gitaly shutting down","time":"2021-02-19T04:10:51Z","wrapper":8212}
+{"level":"info","msg":"Wrapper started","time":"2021-02-19T04:10:51Z","wrapper":8233}
+{"level":"info","msg":"finding gitaly","pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2021-02-19T04:10:51Z","wrapper":8233}
+{"level":"info","msg":"spawning a process","time":"2021-02-19T04:10:51Z","wrapper":8233}
+{"gitaly":8239,"level":"info","msg":"monitoring gitaly","time":"2021-02-19T04:10:51Z","wrapper":8233}
+time="2021-02-19T04:10:52Z" level=info msg="Starting Gitaly" version="Gitaly, version 13.8.4"
+time="2021-02-19T04:10:52Z" level=warning msg="git path not configured. Using default path resolution" resolvedPath=/opt/gitlab/embedded/bin/git
+time="2021-02-19T04:10:52Z" level=fatal msg="load config" config_path=/var/opt/gitlab/gitaly/config.toml error="socket could not be created in /var/opt/gitlab/gitaly/internal_sockets: listen unix /var/opt/gitlab/gitaly/internal_sockets/test-59d2d302.sock: bind: invalid argument"
+{"gitaly":8239,"level":"warning","msg":"forwarding signal","signal":17,"time":"2021-02-19T04:10:52Z","wrapper":8233}
+{"error":"os: process already finished","gitaly":8239,"level":"error","msg":"can't forward the signal","signal":17,"time":"2021-02-19T04:10:52Z","wrapper":8233}
+{"gitaly":8239,"level":"error","msg":"wrapper for gitaly shutting down","time":"2021-02-19T04:10:52Z","wrapper":8233}
+{"level":"info","msg":"Wrapper started","time":"2021-02-19T04:10:52Z","wrapper":8250}
+{"level":"info","msg":"finding gitaly","pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2021-02-19T04:10:52Z","wrapper":8250}
+{"level":"info","msg":"spawning a process","time":"2021-02-19T04:10:52Z","wrapper":8250}
+{"gitaly":8257,"level":"info","msg":"monitoring gitaly","time":"2021-02-19T04:10:52Z","wrapper":8250}
+time="2021-02-19T04:10:53Z" level=info msg="Starting Gitaly" version="Gitaly, version 13.8.4"
+time="2021-02-19T04:10:53Z" level=warning msg="git path not configured. Using default path resolution" resolvedPath=/opt/gitlab/embedded/bin/git
+time="2021-02-19T04:10:53Z" level=fatal msg="load config" config_path=/var/opt/gitlab/gitaly/config.toml error="socket could not be created in /var/opt/gitlab/gitaly/internal_sockets: listen unix /var/opt/gitlab/gitaly/internal_sockets/test-ae19c010.sock: bind: invalid argument"
+{"gitaly":8257,"level":"warning","msg":"forwarding signal","signal":17,"time":"2021-02-19T04:10:53Z","wrapper":8250}
+{"error":"os: process already finished","gitaly":8257,"level":"error","msg":"can't forward the signal","signal":17,"time":"2021-02-19T04:10:53Z","wrapper":8250}
+{"gitaly":8257,"level":"error","msg":"wrapper for gitaly shutting down","time":"2021-02-19T04:10:53Z","wrapper":8250}
+{"level":"info","msg":"Wrapper started","time":"2021-02-19T04:10:53Z","wrapper":8269}
+{"level":"info","msg":"finding gitaly","pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2021-02-19T04:10:53Z","wrapper":8269}
+{"level":"info","msg":"spawning a process","time":"2021-02-19T04:10:53Z","wrapper":8269}
+{"gitaly":8275,"level":"info","msg":"monitoring gitaly","time":"2021-02-19T04:10:53Z","wrapper":8269}
+time="2021-02-19T04:10:54Z" level=info msg="Starting Gitaly" version="Gitaly, version 13.8.4"
+time="2021-02-19T04:10:54Z" level=warning msg="git path not configured. Using default path resolution" resolvedPath=/opt/gitlab/embedded/bin/git
+time="2021-02-19T04:10:54Z" level=fatal msg="load config" config_path=/var/opt/gitlab/gitaly/config.toml error="socket could not be created in /var/opt/gitlab/gitaly/internal_sockets: listen unix /var/opt/gitlab/gitaly/internal_sockets/test-83e78e93.sock: bind: invalid argument"
+{"gitaly":8275,"level":"warning","msg":"forwarding signal","signal":17,"time":"2021-02-19T04:10:54Z","wrapper":8269}
+{"error":"os: process already finished","gitaly":8275,"level":"error","msg":"can't forward the signal","signal":17,"time":"2021-02-19T04:10:54Z","wrapper":8269}
+{"gitaly":8275,"level":"warning","msg":"forwarding signal","signal":23,"time":"2021-02-19T04:10:54Z","wrapper":8269}
+{"error":"os: process already finished","gitaly":8275,"level":"error","msg":"can't forward the signal","signal":23,"time":"2021-02-19T04:10:54Z","wrapper":8269}
+{"gitaly":8275,"level":"error","msg":"wrapper for gitaly shutting down","time":"2021-02-19T04:10:54Z","wrapper":8269}
+{"level":"info","msg":"Wrapper started","time":"2021-02-19T04:10:54Z","wrapper":8291}
+{"level":"info","msg":"finding gitaly","pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2021-02-19T04:10:54Z","wrapper":8291}
+{"level":"info","msg":"spawning a process","time":"2021-02-19T04:10:54Z","wrapper":8291}
+{"gitaly":8297,"level":"info","msg":"monitoring gitaly","time":"2021-02-19T04:10:54Z","wrapper":8291}
+time="2021-02-19T04:10:55Z" level=info msg="Starting Gitaly" version="Gitaly, version 13.8.4"
+time="2021-02-19T04:10:55Z" level=warning msg="git path not configured. Using default path resolution" resolvedPath=/opt/gitlab/embedded/bin/git
+time="2021-02-19T04:10:55Z" level=fatal msg="load config" config_path=/var/opt/gitlab/gitaly/config.toml error="socket could not be created in /var/opt/gitlab/gitaly/internal_sockets: listen unix /var/opt/gitlab/gitaly/internal_sockets/test-4853668b.sock: bind: invalid argument"
+{"gitaly":8297,"level":"warning","msg":"forwarding signal","signal":17,"time":"2021-02-19T04:10:55Z","wrapper":8291}
+{"error":"os: process already finished","gitaly":8297,"level":"error","msg":"can't forward the signal","signal":17,"time":"2021-02-19T04:10:55Z","wrapper":8291}
+{"gitaly":8297,"level":"error","msg":"wrapper for gitaly shutting down","time":"2021-02-19T04:10:55Z","wrapper":8291}
+{"level":"info","msg":"Wrapper started","time":"2021-02-19T04:10:55Z","wrapper":8309}
+{"level":"info","msg":"finding gitaly","pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2021-02-19T04:10:55Z","wrapper":8309}
+{"level":"info","msg":"spawning a process","time":"2021-02-19T04:10:55Z","wrapper":8309}
+{"gitaly":8315,"level":"info","msg":"monitoring gitaly","time":"2021-02-19T04:10:55Z","wrapper":8309}
+time="2021-02-19T04:10:56Z" level=info msg="Starting Gitaly" version="Gitaly, version 13.8.4"
+time="2021-02-19T04:10:56Z" level=warning msg="git path not configured. Using default path resolution" resolvedPath=/opt/gitlab/embedded/bin/git
+time="2021-02-19T04:10:56Z" level=fatal msg="load config" config_path=/var/opt/gitlab/gitaly/config.toml error="socket could not be created in /var/opt/gitlab/gitaly/internal_sockets: listen unix /var/opt/gitlab/gitaly/internal_sockets/test-c7920f4f.sock: bind: invalid argument"
+{"gitaly":8315,"level":"warning","msg":"forwarding signal","signal":17,"time":"2021-02-19T04:10:56Z","wrapper":8309}
+{"error":"os: process already finished","gitaly":8315,"level":"error","msg":"can't forward the signal","signal":17,"time":"2021-02-19T04:10:56Z","wrapper":8309}
+{"gitaly":8315,"level":"warning","msg":"forwarding signal","signal":23,"time":"2021-02-19T04:10:56Z","wrapper":8309}
+{"error":"os: process already finished","gitaly":8315,"level":"error","msg":"can't forward the signal","signal":23,"time":"2021-02-19T04:10:56Z","wrapper":8309}
+{"gitaly":8315,"level":"error","msg":"wrapper for gitaly shutting down","time":"2021-02-19T04:10:56Z","wrapper":8309}
+{"level":"info","msg":"Wrapper started","time":"2021-02-19T04:10:56Z","wrapper":8327}
+{"level":"info","msg":"finding gitaly","pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2021-02-19T04:10:56Z","wrapper":8327}
+{"level":"info","msg":"spawning a process","time":"2021-02-19T04:10:56Z","wrapper":8327}
+{"gitaly":8333,"level":"info","msg":"monitoring gitaly","time":"2021-02-19T04:10:56Z","wrapper":8327}
+time="2021-02-19T04:10:57Z" level=info msg="Starting Gitaly" version="Gitaly, version 13.8.4"
+time="2021-02-19T04:10:57Z" level=warning msg="git path not configured. Using default path resolution" resolvedPath=/opt/gitlab/embedded/bin/git
+time="2021-02-19T04:10:57Z" level=fatal msg="load config" config_path=/var/opt/gitlab/gitaly/config.toml error="socket could not be created in /var/opt/gitlab/gitaly/internal_sockets: listen unix /var/opt/gitlab/gitaly/internal_sockets/test-2f7d1565.sock: bind: invalid argument"
+{"gitaly":8333,"level":"warning","msg":"forwarding signal","signal":17,"time":"2021-02-19T04:10:57Z","wrapper":8327}
+{"error":"os: process already finished","gitaly":8333,"level":"error","msg":"can't forward the signal","signal":17,"time":"2021-02-19T04:10:57Z","wrapper":8327}
+{"gitaly":8333,"level":"error","msg":"wrapper for gitaly shutting down","time":"2021-02-19T04:10:57Z","wrapper":8327}
+{"level":"info","msg":"Wrapper started","time":"2021-02-19T04:10:57Z","wrapper":8349}
+{"level":"info","msg":"finding gitaly","pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2021-02-19T04:10:57Z","wrapper":8349}
+{"level":"info","msg":"spawning a process","time":"2021-02-19T04:10:57Z","wrapper":8349}
+{"gitaly":8356,"level":"info","msg":"monitoring gitaly","time":"2021-02-19T04:10:57Z","wrapper":8349}
+time="2021-02-19T04:10:58Z" level=info msg="Starting Gitaly" version="Gitaly, version 13.8.4"
+time="2021-02-19T04:10:58Z" level=warning msg="git path not configured. Using default path resolution" resolvedPath=/opt/gitlab/embedded/bin/git
+time="2021-02-19T04:10:58Z" level=fatal msg="load config" config_path=/var/opt/gitlab/gitaly/config.toml error="socket could not be created in /var/opt/gitlab/gitaly/internal_sockets: listen unix /var/opt/gitlab/gitaly/internal_sockets/test-cf9e4dcd.sock: bind: invalid argument"
+{"gitaly":8356,"level":"warning","msg":"forwarding signal","signal":17,"time":"2021-02-19T04:10:58Z","wrapper":8349}
+{"error":"os: process already finished","gitaly":8356,"level":"error","msg":"can't forward the signal","signal":17,"time":"2021-02-19T04:10:58Z","wrapper":8349}
+{"gitaly":8356,"level":"error","msg":"wrapper for gitaly shutting down","time":"2021-02-19T04:10:58Z","wrapper":8349}
+{"level":"info","msg":"Wrapper started","time":"2021-02-19T04:10:58Z","wrapper":8367}
+{"level":"info","msg":"finding gitaly","pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2021-02-19T04:10:58Z","wrapper":8367}
+{"level":"info","msg":"spawning a process","time":"2021-02-19T04:10:58Z","wrapper":8367}
+{"gitaly":8373,"level":"info","msg":"monitoring gitaly","time":"2021-02-19T04:10:58Z","wrapper":8367}
+time="2021-02-19T04:10:59Z" level=info msg="Starting Gitaly" version="Gitaly, version 13.8.4"
+time="2021-02-19T04:10:59Z" level=warning msg="git path not configured. Using default path resolution" resolvedPath=/opt/gitlab/embedded/bin/git
+time="2021-02-19T04:10:59Z" level=fatal msg="load config" config_path=/var/opt/gitlab/gitaly/config.toml error="socket could not be created in /var/opt/gitlab/gitaly/internal_sockets: listen unix /var/opt/gitlab/gitaly/internal_sockets/test-80ed04c5.sock: bind: invalid argument"
+{"gitaly":8373,"level":"warning","msg":"forwarding signal","signal":17,"time":"2021-02-19T04:10:59Z","wrapper":8367}
+{"error":"os: process already finished","gitaly":8373,"level":"error","msg":"can't forward the signal","signal":17,"time":"2021-02-19T04:10:59Z","wrapper":8367}
+{"gitaly":8373,"level":"error","msg":"wrapper for gitaly shutting down","time":"2021-02-19T04:10:59Z","wrapper":8367}
+{"level":"info","msg":"Wrapper started","time":"2021-02-19T04:10:59Z","wrapper":8385}
+{"level":"info","msg":"finding gitaly","pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2021-02-19T04:10:59Z","wrapper":8385}
+{"level":"info","msg":"spawning a process","time":"2021-02-19T04:10:59Z","wrapper":8385}
+{"gitaly":8391,"level":"info","msg":"monitoring gitaly","time":"2021-02-19T04:10:59Z","wrapper":8385}
+time="2021-02-19T04:11:00Z" level=info msg="Starting Gitaly" version="Gitaly, version 13.8.4"
+time="2021-02-19T04:11:00Z" level=warning msg="git path not configured. Using default path resolution" resolvedPath=/opt/gitlab/embedded/bin/git
+time="2021-02-19T04:11:00Z" level=fatal msg="load config" config_path=/var/opt/gitlab/gitaly/config.toml error="socket could not be created in /var/opt/gitlab/gitaly/internal_sockets: listen unix /var/opt/gitlab/gitaly/internal_sockets/test-bc4f1ac6.sock: bind: invalid argument"
+{"gitaly":8391,"level":"warning","msg":"forwarding signal","signal":17,"time":"2021-02-19T04:11:00Z","wrapper":8385}
+{"error":"os: process already finished","gitaly":8391,"level":"error","msg":"can't forward the signal","signal":17,"time":"2021-02-19T04:11:00Z","wrapper":8385}
+{"gitaly":8391,"level":"error","msg":"wrapper for gitaly shutting down","time":"2021-02-19T04:11:00Z","wrapper":8385}
+{"level":"info","msg":"Wrapper started","time":"2021-02-19T04:11:00Z","wrapper":8406}
+{"level":"info","msg":"finding gitaly","pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2021-02-19T04:11:00Z","wrapper":8406}
+{"level":"info","msg":"spawning a process","time":"2021-02-19T04:11:00Z","wrapper":8406}
+{"gitaly":8412,"level":"info","msg":"monitoring gitaly","time":"2021-02-19T04:11:00Z","wrapper":8406}
+time="2021-02-19T04:11:01Z" level=info msg="Starting Gitaly" version="Gitaly, version 13.8.4"
+time="2021-02-19T04:11:01Z" level=warning msg="git path not configured. Using default path resolution" resolvedPath=/opt/gitlab/embedded/bin/git
+time="2021-02-19T04:11:01Z" level=fatal msg="load config" config_path=/var/opt/gitlab/gitaly/config.toml error="socket could not be created in /var/opt/gitlab/gitaly/internal_sockets: listen unix /var/opt/gitlab/gitaly/internal_sockets/test-ee0896fb.sock: bind: invalid argument"
+{"gitaly":8412,"level":"warning","msg":"forwarding signal","signal":17,"time":"2021-02-19T04:11:01Z","wrapper":8406}
+{"gitaly":8412,"level":"error","msg":"wrapper for gitaly shutting down","time":"2021-02-19T04:11:01Z","wrapper":8406}
+{"level":"info","msg":"Wrapper started","time":"2021-02-19T04:11:01Z","wrapper":8424}
+{"level":"info","msg":"finding gitaly","pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2021-02-19T04:11:01Z","wrapper":8424}
+{"level":"info","msg":"spawning a process","time":"2021-02-19T04:11:01Z","wrapper":8424}
+{"gitaly":8430,"level":"info","msg":"monitoring gitaly","time":"2021-02-19T04:11:01Z","wrapper":8424}
+time="2021-02-19T04:11:02Z" level=info msg="Starting Gitaly" version="Gitaly, version 13.8.4"
+time="2021-02-19T04:11:02Z" level=warning msg="git path not configured. Using default path resolution" resolvedPath=/opt/gitlab/embedded/bin/git
+time="2021-02-19T04:11:02Z" level=fatal msg="load config" config_path=/var/opt/gitlab/gitaly/config.toml error="socket could not be created in /var/opt/gitlab/gitaly/internal_sockets: listen unix /var/opt/gitlab/gitaly/internal_sockets/test-c46fbe30.sock: bind: invalid argument"
+{"gitaly":8430,"level":"warning","msg":"forwarding signal","signal":17,"time":"2021-02-19T04:11:02Z","wrapper":8424}
+{"error":"os: process already finished","gitaly":8430,"level":"error","msg":"can't forward the signal","signal":17,"time":"2021-02-19T04:11:02Z","wrapper":8424}
+{"gitaly":8430,"level":"warning","msg":"forwarding signal","signal":23,"time":"2021-02-19T04:11:02Z","wrapper":8424}
+{"error":"os: process already finished","gitaly":8430,"level":"error","msg":"can't forward the signal","signal":23,"time":"2021-02-19T04:11:02Z","wrapper":8424}
+{"gitaly":8430,"level":"error","msg":"wrapper for gitaly shutting down","time":"2021-02-19T04:11:02Z","wrapper":8424}
+{"level":"info","msg":"Wrapper started","time":"2021-02-19T04:11:02Z","wrapper":8442}
+{"level":"info","msg":"finding gitaly","pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2021-02-19T04:11:02Z","wrapper":8442}
+{"level":"info","msg":"spawning a process","time":"2021-02-19T04:11:02Z","wrapper":8442}
+{"gitaly":8452,"level":"info","msg":"monitoring gitaly","time":"2021-02-19T04:11:02Z","wrapper":8442}
+time="2021-02-19T04:11:03Z" level=info msg="Starting Gitaly" version="Gitaly, version 13.8.4"
+time="2021-02-19T04:11:03Z" level=warning msg="git path not configured. Using default path resolution" resolvedPath=/opt/gitlab/embedded/bin/git
+time="2021-02-19T04:11:03Z" level=fatal msg="load config" config_path=/var/opt/gitlab/gitaly/config.toml error="socket could not be created in /var/opt/gitlab/gitaly/internal_sockets: listen unix /var/opt/gitlab/gitaly/internal_sockets/test-0a7f491a.sock: bind: invalid argument"
+{"gitaly":8452,"level":"warning","msg":"forwarding signal","signal":17,"time":"2021-02-19T04:11:03Z","wrapper":8442}
+{"error":"os: process already finished","gitaly":8452,"level":"error","msg":"can't forward the signal","signal":17,"time":"2021-02-19T04:11:03Z","wrapper":8442}
+{"gitaly":8452,"level":"error","msg":"wrapper for gitaly shutting down","time":"2021-02-19T04:11:03Z","wrapper":8442}
+{"level":"info","msg":"Wrapper started","time":"2021-02-19T04:11:03Z","wrapper":8464}
+{"level":"info","msg":"finding gitaly","pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2021-02-19T04:11:03Z","wrapper":8464}
+{"level":"info","msg":"spawning a process","time":"2021-02-19T04:11:03Z","wrapper":8464}
+{"gitaly":8470,"level":"info","msg":"monitoring gitaly","time":"2021-02-19T04:11:03Z","wrapper":8464}
+time="2021-02-19T04:11:04Z" level=info msg="Starting Gitaly" version="Gitaly, version 13.8.4"
+time="2021-02-19T04:11:04Z" level=warning msg="git path not configured. Using default path resolution" resolvedPath=/opt/gitlab/embedded/bin/git
+time="2021-02-19T04:11:04Z" level=fatal msg="load config" config_path=/var/opt/gitlab/gitaly/config.toml error="socket could not be created in /var/opt/gitlab/gitaly/internal_sockets: listen unix /var/opt/gitlab/gitaly/internal_sockets/test-39e87c8e.sock: bind: invalid argument"
+{"gitaly":8470,"level":"warning","msg":"forwarding signal","signal":17,"time":"2021-02-19T04:11:04Z","wrapper":8464}
+{"error":"os: process already finished","gitaly":8470,"level":"error","msg":"can't forward the signal","signal":17,"time":"2021-02-19T04:11:04Z","wrapper":8464}
+{"gitaly":8470,"level":"error","msg":"wrapper for gitaly shutting down","time":"2021-02-19T04:11:04Z","wrapper":8464}
+{"level":"info","msg":"Wrapper started","time":"2021-02-19T04:11:04Z","wrapper":8482}
+{"level":"info","msg":"finding gitaly","pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2021-02-19T04:11:04Z","wrapper":8482}
+{"level":"info","msg":"spawning a process","time":"2021-02-19T04:11:04Z","wrapper":8482}
+{"gitaly":8488,"level":"info","msg":"monitoring gitaly","time":"2021-02-19T04:11:04Z","wrapper":8482}
+time="2021-02-19T04:11:05Z" level=info msg="Starting Gitaly" version="Gitaly, version 13.8.4"
+time="2021-02-19T04:11:05Z" level=warning msg="git path not configured. Using default path resolution" resolvedPath=/opt/gitlab/embedded/bin/git
+time="2021-02-19T04:11:05Z" level=fatal msg="load config" config_path=/var/opt/gitlab/gitaly/config.toml error="socket could not be created in /var/opt/gitlab/gitaly/internal_sockets: listen unix /var/opt/gitlab/gitaly/internal_sockets/test-f33eb606.sock: bind: invalid argument"
+{"gitaly":8488,"level":"warning","msg":"forwarding signal","signal":17,"time":"2021-02-19T04:11:05Z","wrapper":8482}
+{"error":"os: process already finished","gitaly":8488,"level":"error","msg":"can't forward the signal","signal":17,"time":"2021-02-19T04:11:05Z","wrapper":8482}
+{"gitaly":8488,"level":"warning","msg":"forwarding signal","signal":23,"time":"2021-02-19T04:11:05Z","wrapper":8482}
+{"error":"os: process already finished","gitaly":8488,"level":"error","msg":"can't forward the signal","signal":23,"time":"2021-02-19T04:11:05Z","wrapper":8482}
+{"gitaly":8488,"level":"error","msg":"wrapper for gitaly shutting down","time":"2021-02-19T04:11:05Z","wrapper":8482}
+{"level":"info","msg":"Wrapper started","time":"2021-02-19T04:11:05Z","wrapper":8505}
+{"level":"info","msg":"finding gitaly","pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2021-02-19T04:11:05Z","wrapper":8505}
+{"level":"info","msg":"spawning a process","time":"2021-02-19T04:11:05Z","wrapper":8505}
+{"gitaly":8510,"level":"info","msg":"monitoring gitaly","time":"2021-02-19T04:11:05Z","wrapper":8505}
+time="2021-02-19T04:11:06Z" level=info msg="Starting Gitaly" version="Gitaly, version 13.8.4"
+time="2021-02-19T04:11:06Z" level=warning msg="git path not configured. Using default path resolution" resolvedPath=/opt/gitlab/embedded/bin/git
+time="2021-02-19T04:11:06Z" level=fatal msg="load config" config_path=/var/opt/gitlab/gitaly/config.toml error="socket could not be created in /var/opt/gitlab/gitaly/internal_sockets: listen unix /var/opt/gitlab/gitaly/internal_sockets/test-3a8114aa.sock: bind: invalid argument"
+{"gitaly":8510,"level":"warning","msg":"forwarding signal","signal":17,"time":"2021-02-19T04:11:06Z","wrapper":8505}
+{"error":"os: process already finished","gitaly":8510,"level":"error","msg":"can't forward the signal","signal":17,"time":"2021-02-19T04:11:06Z","wrapper":8505}
+{"gitaly":8510,"level":"error","msg":"wrapper for gitaly shutting down","time":"2021-02-19T04:11:06Z","wrapper":8505}
+{"level":"info","msg":"Wrapper started","time":"2021-02-19T04:11:06Z","wrapper":8524}
+{"level":"info","msg":"finding gitaly","pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2021-02-19T04:11:06Z","wrapper":8524}
+{"level":"info","msg":"spawning a process","time":"2021-02-19T04:11:06Z","wrapper":8524}
+{"gitaly":8530,"level":"info","msg":"monitoring gitaly","time":"2021-02-19T04:11:06Z","wrapper":8524}
+time="2021-02-19T04:11:07Z" level=info msg="Starting Gitaly" version="Gitaly, version 13.8.4"
+time="2021-02-19T04:11:07Z" level=warning msg="git path not configured. Using default path resolution" resolvedPath=/opt/gitlab/embedded/bin/git
+time="2021-02-19T04:11:07Z" level=fatal msg="load config" config_path=/var/opt/gitlab/gitaly/config.toml error="socket could not be created in /var/opt/gitlab/gitaly/internal_sockets: listen unix /var/opt/gitlab/gitaly/internal_sockets/test-5c67bac4.sock: bind: invalid argument"
+{"gitaly":8530,"level":"warning","msg":"forwarding signal","signal":17,"time":"2021-02-19T04:11:07Z","wrapper":8524}
+{"error":"os: process already finished","gitaly":8530,"level":"error","msg":"can't forward the signal","signal":17,"time":"2021-02-19T04:11:07Z","wrapper":8524}
+{"gitaly":8530,"level":"error","msg":"wrapper for gitaly shutting down","time":"2021-02-19T04:11:08Z","wrapper":8524}
+{"level":"info","msg":"Wrapper started","time":"2021-02-19T04:11:08Z","wrapper":8541}
+{"level":"info","msg":"finding gitaly","pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2021-02-19T04:11:08Z","wrapper":8541}
+{"level":"info","msg":"spawning a process","time":"2021-02-19T04:11:08Z","wrapper":8541}
+{"gitaly":8547,"level":"info","msg":"monitoring gitaly","time":"2021-02-19T04:11:08Z","wrapper":8541}
+time="2021-02-19T04:11:09Z" level=info msg="Starting Gitaly" version="Gitaly, version 13.8.4"
+time="2021-02-19T04:11:09Z" level=warning msg="git path not configured. Using default path resolution" resolvedPath=/opt/gitlab/embedded/bin/git
+time="2021-02-19T04:11:09Z" level=fatal msg="load config" config_path=/var/opt/gitlab/gitaly/config.toml error="socket could not be created in /var/opt/gitlab/gitaly/internal_sockets: listen unix /var/opt/gitlab/gitaly/internal_sockets/test-ce6a3cc4.sock: bind: invalid argument"
+{"gitaly":8547,"level":"warning","msg":"forwarding signal","signal":17,"time":"2021-02-19T04:11:09Z","wrapper":8541}
+{"error":"os: process already finished","gitaly":8547,"level":"error","msg":"can't forward the signal","signal":17,"time":"2021-02-19T04:11:09Z","wrapper":8541}
+{"gitaly":8547,"level":"error","msg":"wrapper for gitaly shutting down","time":"2021-02-19T04:11:10Z","wrapper":8541}
+{"level":"info","msg":"Wrapper started","time":"2021-02-19T04:11:10Z","wrapper":8564}
+{"level":"info","msg":"finding gitaly","pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2021-02-19T04:11:10Z","wrapper":8564}
+{"level":"info","msg":"spawning a process","time":"2021-02-19T04:11:10Z","wrapper":8564}
+{"gitaly":8570,"level":"info","msg":"monitoring gitaly","time":"2021-02-19T04:11:10Z","wrapper":8564}
+time="2021-02-19T04:11:11Z" level=info msg="Starting Gitaly" version="Gitaly, version 13.8.4"
+time="2021-02-19T04:11:11Z" level=warning msg="git path not configured. Using default path resolution" resolvedPath=/opt/gitlab/embedded/bin/git
+time="2021-02-19T04:11:11Z" level=fatal msg="load config" config_path=/var/opt/gitlab/gitaly/config.toml error="socket could not be created in /var/opt/gitlab/gitaly/internal_sockets: listen unix /var/opt/gitlab/gitaly/internal_sockets/test-f6aca3c0.sock: bind: invalid argument"
+{"gitaly":8570,"level":"warning","msg":"forwarding signal","signal":17,"time":"2021-02-19T04:11:11Z","wrapper":8564}
+{"error":"os: process already finished","gitaly":8570,"level":"error","msg":"can't forward the signal","signal":17,"time":"2021-02-19T04:11:11Z","wrapper":8564}
+{"gitaly":8570,"level":"error","msg":"wrapper for gitaly shutting down","time":"2021-02-19T04:11:12Z","wrapper":8564}
+{"level":"info","msg":"Wrapper started","time":"2021-02-19T04:11:12Z","wrapper":8586}
+{"level":"info","msg":"finding gitaly","pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2021-02-19T04:11:12Z","wrapper":8586}
+{"level":"info","msg":"spawning a process","time":"2021-02-19T04:11:12Z","wrapper":8586}
+{"gitaly":8592,"level":"info","msg":"monitoring gitaly","time":"2021-02-19T04:11:12Z","wrapper":8586}
+time="2021-02-19T04:11:12Z" level=info msg="Starting Gitaly" version="Gitaly, version 13.8.4"
+time="2021-02-19T04:11:12Z" level=warning msg="git path not configured. Using default path resolution" resolvedPath=/opt/gitlab/embedded/bin/git
+time="2021-02-19T04:11:12Z" level=fatal msg="load config" config_path=/var/opt/gitlab/gitaly/config.toml error="socket could not be created in /var/opt/gitlab/gitaly/internal_sockets: listen unix /var/opt/gitlab/gitaly/internal_sockets/test-f75c5c90.sock: bind: invalid argument"
+{"gitaly":8592,"level":"warning","msg":"forwarding signal","signal":17,"time":"2021-02-19T04:11:12Z","wrapper":8586}
+{"error":"os: process already finished","gitaly":8592,"level":"error","msg":"can't forward the signal","signal":17,"time":"2021-02-19T04:11:12Z","wrapper":8586}
+{"gitaly":8592,"level":"error","msg":"wrapper for gitaly shutting down","time":"2021-02-19T04:11:13Z","wrapper":8586}
+{"level":"info","msg":"Wrapper started","time":"2021-02-19T04:11:13Z","wrapper":8617}
+{"level":"info","msg":"finding gitaly","pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2021-02-19T04:11:13Z","wrapper":8617}
+{"level":"info","msg":"spawning a process","time":"2021-02-19T04:11:13Z","wrapper":8617}
+{"gitaly":8624,"level":"info","msg":"monitoring gitaly","time":"2021-02-19T04:11:13Z","wrapper":8617}
+time="2021-02-19T04:11:13Z" level=info msg="Starting Gitaly" version="Gitaly, version 13.8.4"
+time="2021-02-19T04:11:13Z" level=warning msg="git path not configured. Using default path resolution" resolvedPath=/opt/gitlab/embedded/bin/git
+time="2021-02-19T04:11:13Z" level=fatal msg="load config" config_path=/var/opt/gitlab/gitaly/config.toml error="socket could not be created in /var/opt/gitlab/gitaly/internal_sockets: listen unix /var/opt/gitlab/gitaly/internal_sockets/test-00db2e81.sock: bind: invalid argument"
+{"gitaly":8624,"level":"warning","msg":"forwarding signal","signal":17,"time":"2021-02-19T04:11:13Z","wrapper":8617}
+{"error":"os: process already finished","gitaly":8624,"level":"error","msg":"can't forward the signal","signal":17,"time":"2021-02-19T04:11:13Z","wrapper":8617}
+{"gitaly":8624,"level":"error","msg":"wrapper for gitaly shutting down","time":"2021-02-19T04:11:14Z","wrapper":8617}
+{"level":"info","msg":"Wrapper started","time":"2021-02-19T04:11:14Z","wrapper":8635}
+{"level":"info","msg":"finding gitaly","pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2021-02-19T04:11:14Z","wrapper":8635}
+{"level":"info","msg":"spawning a process","time":"2021-02-19T04:11:14Z","wrapper":8635}
+{"gitaly":8641,"level":"info","msg":"monitoring gitaly","time":"2021-02-19T04:11:14Z","wrapper":8635}
+time="2021-02-19T04:11:14Z" level=info msg="Starting Gitaly" version="Gitaly, version 13.8.4"
+time="2021-02-19T04:11:14Z" level=warning msg="git path not configured. Using default path resolution" resolvedPath=/opt/gitlab/embedded/bin/git
+time="2021-02-19T04:11:14Z" level=fatal msg="load config" config_path=/var/opt/gitlab/gitaly/config.toml error="socket could not be created in /var/opt/gitlab/gitaly/internal_sockets: listen unix /var/opt/gitlab/gitaly/internal_sockets/test-4848fc3a.sock: bind: invalid argument"
+{"gitaly":8641,"level":"warning","msg":"forwarding signal","signal":17,"time":"2021-02-19T04:11:14Z","wrapper":8635}
+{"error":"os: process already finished","gitaly":8641,"level":"error","msg":"can't forward the signal","signal":17,"time":"2021-02-19T04:11:14Z","wrapper":8635}
+{"gitaly":8641,"level":"error","msg":"wrapper for gitaly shutting down","time":"2021-02-19T04:11:15Z","wrapper":8635}
+{"level":"info","msg":"Wrapper started","time":"2021-02-19T04:11:15Z","wrapper":8657}
+{"level":"info","msg":"finding gitaly","pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2021-02-19T04:11:15Z","wrapper":8657}
+{"level":"info","msg":"spawning a process","time":"2021-02-19T04:11:15Z","wrapper":8657}
+{"gitaly":8663,"level":"info","msg":"monitoring gitaly","time":"2021-02-19T04:11:15Z","wrapper":8657}
+time="2021-02-19T04:11:15Z" level=info msg="Starting Gitaly" version="Gitaly, version 13.8.4"
+time="2021-02-19T04:11:15Z" level=warning msg="git path not configured. Using default path resolution" resolvedPath=/opt/gitlab/embedded/bin/git
+time="2021-02-19T04:11:15Z" level=fatal msg="load config" config_path=/var/opt/gitlab/gitaly/config.toml error="socket could not be created in /var/opt/gitlab/gitaly/internal_sockets: listen unix /var/opt/gitlab/gitaly/internal_sockets/test-4d85cd1c.sock: bind: invalid argument"
+{"gitaly":8663,"level":"warning","msg":"forwarding signal","signal":17,"time":"2021-02-19T04:11:15Z","wrapper":8657}
+{"error":"os: process already finished","gitaly":8663,"level":"error","msg":"can't forward the signal","signal":17,"time":"2021-02-19T04:11:15Z","wrapper":8657}
+{"gitaly":8663,"level":"error","msg":"wrapper for gitaly shutting down","time":"2021-02-19T04:11:16Z","wrapper":8657}
+{"level":"info","msg":"Wrapper started","time":"2021-02-19T04:11:17Z","wrapper":8675}
+{"level":"info","msg":"finding gitaly","pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2021-02-19T04:11:17Z","wrapper":8675}
+{"level":"info","msg":"spawning a process","time":"2021-02-19T04:11:17Z","wrapper":8675}
+{"gitaly":8682,"level":"info","msg":"monitoring gitaly","time":"2021-02-19T04:11:17Z","wrapper":8675}
+time="2021-02-19T04:11:17Z" level=info msg="Starting Gitaly" version="Gitaly, version 13.8.4"
+time="2021-02-19T04:11:17Z" level=warning msg="git path not configured. Using default path resolution" resolvedPath=/opt/gitlab/embedded/bin/git
+time="2021-02-19T04:11:17Z" level=fatal msg="load config" config_path=/var/opt/gitlab/gitaly/config.toml error="socket could not be created in /var/opt/gitlab/gitaly/internal_sockets: listen unix /var/opt/gitlab/gitaly/internal_sockets/test-c0c6b694.sock: bind: invalid argument"
+{"gitaly":8682,"level":"warning","msg":"forwarding signal","signal":17,"time":"2021-02-19T04:11:17Z","wrapper":8675}
+{"error":"os: process already finished","gitaly":8682,"level":"error","msg":"can't forward the signal","signal":17,"time":"2021-02-19T04:11:17Z","wrapper":8675}
+{"gitaly":8682,"level":"error","msg":"wrapper for gitaly shutting down","time":"2021-02-19T04:11:18Z","wrapper":8675}
+{"level":"info","msg":"Wrapper started","time":"2021-02-19T04:11:18Z","wrapper":8697}
+{"level":"info","msg":"finding gitaly","pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2021-02-19T04:11:18Z","wrapper":8697}
+{"level":"info","msg":"spawning a process","time":"2021-02-19T04:11:18Z","wrapper":8697}
+{"gitaly":8703,"level":"info","msg":"monitoring gitaly","time":"2021-02-19T04:11:18Z","wrapper":8697}
+time="2021-02-19T04:11:18Z" level=info msg="Starting Gitaly" version="Gitaly, version 13.8.4"
+time="2021-02-19T04:11:18Z" level=warning msg="git path not configured. Using default path resolution" resolvedPath=/opt/gitlab/embedded/bin/git
+time="2021-02-19T04:11:18Z" level=fatal msg="load config" config_path=/var/opt/gitlab/gitaly/config.toml error="socket could not be created in /var/opt/gitlab/gitaly/internal_sockets: listen unix /var/opt/gitlab/gitaly/internal_sockets/test-491681fe.sock: bind: invalid argument"
+{"gitaly":8703,"level":"warning","msg":"forwarding signal","signal":17,"time":"2021-02-19T04:11:18Z","wrapper":8697}
+{"error":"os: process already finished","gitaly":8703,"level":"error","msg":"can't forward the signal","signal":17,"time":"2021-02-19T04:11:18Z","wrapper":8697}
+{"gitaly":8703,"level":"error","msg":"wrapper for gitaly shutting down","time":"2021-02-19T04:11:19Z","wrapper":8697}
+{"level":"info","msg":"Wrapper started","time":"2021-02-19T04:11:19Z","wrapper":8715}
+{"level":"info","msg":"finding gitaly","pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2021-02-19T04:11:19Z","wrapper":8715}
+{"level":"info","msg":"spawning a process","time":"2021-02-19T04:11:19Z","wrapper":8715}
+{"gitaly":8721,"level":"info","msg":"monitoring gitaly","time":"2021-02-19T04:11:19Z","wrapper":8715}
+time="2021-02-19T04:11:19Z" level=info msg="Starting Gitaly" version="Gitaly, version 13.8.4"
+time="2021-02-19T04:11:19Z" level=warning msg="git path not configured. Using default path resolution" resolvedPath=/opt/gitlab/embedded/bin/git
+time="2021-02-19T04:11:19Z" level=fatal msg="load config" config_path=/var/opt/gitlab/gitaly/config.toml error="socket could not be created in /var/opt/gitlab/gitaly/internal_sockets: listen unix /var/opt/gitlab/gitaly/internal_sockets/test-7d7e2dcc.sock: bind: invalid argument"
+{"gitaly":8721,"level":"warning","msg":"forwarding signal","signal":17,"time":"2021-02-19T04:11:19Z","wrapper":8715}
+{"error":"os: process already finished","gitaly":8721,"level":"error","msg":"can't forward the signal","signal":17,"time":"2021-02-19T04:11:19Z","wrapper":8715}
+{"gitaly":8721,"level":"error","msg":"wrapper for gitaly shutting down","time":"2021-02-19T04:11:20Z","wrapper":8715}
+{"level":"info","msg":"Wrapper started","time":"2021-02-19T04:11:20Z","wrapper":8733}
+{"level":"info","msg":"finding gitaly","pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2021-02-19T04:11:20Z","wrapper":8733}
+{"level":"info","msg":"spawning a process","time":"2021-02-19T04:11:20Z","wrapper":8733}
+{"gitaly":8739,"level":"info","msg":"monitoring gitaly","time":"2021-02-19T04:11:20Z","wrapper":8733}
+time="2021-02-19T04:11:20Z" level=info msg="Starting Gitaly" version="Gitaly, version 13.8.4"
+time="2021-02-19T04:11:20Z" level=warning msg="git path not configured. Using default path resolution" resolvedPath=/opt/gitlab/embedded/bin/git
+time="2021-02-19T04:11:20Z" level=fatal msg="load config" config_path=/var/opt/gitlab/gitaly/config.toml error="socket could not be created in /var/opt/gitlab/gitaly/internal_sockets: listen unix /var/opt/gitlab/gitaly/internal_sockets/test-094d61f4.sock: bind: invalid argument"
+{"gitaly":8739,"level":"warning","msg":"forwarding signal","signal":17,"time":"2021-02-19T04:11:20Z","wrapper":8733}
+{"error":"os: process already finished","gitaly":8739,"level":"error","msg":"can't forward the signal","signal":17,"time":"2021-02-19T04:11:20Z","wrapper":8733}
+{"gitaly":8739,"level":"error","msg":"wrapper for gitaly shutting down","time":"2021-02-19T04:11:21Z","wrapper":8733}
+{"level":"info","msg":"Wrapper started","time":"2021-02-19T04:11:21Z","wrapper":8756}
+{"level":"info","msg":"finding gitaly","pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2021-02-19T04:11:21Z","wrapper":8756}
+{"level":"info","msg":"spawning a process","time":"2021-02-19T04:11:21Z","wrapper":8756}
+{"gitaly":8762,"level":"info","msg":"monitoring gitaly","time":"2021-02-19T04:11:21Z","wrapper":8756}
+time="2021-02-19T04:11:21Z" level=info msg="Starting Gitaly" version="Gitaly, version 13.8.4"
+time="2021-02-19T04:11:21Z" level=warning msg="git path not configured. Using default path resolution" resolvedPath=/opt/gitlab/embedded/bin/git
+time="2021-02-19T04:11:21Z" level=fatal msg="load config" config_path=/var/opt/gitlab/gitaly/config.toml error="socket could not be created in /var/opt/gitlab/gitaly/internal_sockets: listen unix /var/opt/gitlab/gitaly/internal_sockets/test-abea9ee8.sock: bind: invalid argument"
+{"gitaly":8762,"level":"warning","msg":"forwarding signal","signal":17,"time":"2021-02-19T04:11:21Z","wrapper":8756}
+{"error":"os: process already finished","gitaly":8762,"level":"error","msg":"can't forward the signal","signal":17,"time":"2021-02-19T04:11:21Z","wrapper":8756}
+{"gitaly":8762,"level":"error","msg":"wrapper for gitaly shutting down","time":"2021-02-19T04:11:22Z","wrapper":8756}
+{"level":"info","msg":"Wrapper started","time":"2021-02-19T04:11:22Z","wrapper":8773}
+{"level":"info","msg":"finding gitaly","pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2021-02-19T04:11:22Z","wrapper":8773}
+{"level":"info","msg":"spawning a process","time":"2021-02-19T04:11:22Z","wrapper":8773}
+{"gitaly":8779,"level":"info","msg":"monitoring gitaly","time":"2021-02-19T04:11:22Z","wrapper":8773}
+time="2021-02-19T04:11:22Z" level=info msg="Starting Gitaly" version="Gitaly, version 13.8.4"
+time="2021-02-19T04:11:22Z" level=warning msg="git path not configured. Using default path resolution" resolvedPath=/opt/gitlab/embedded/bin/git
+time="2021-02-19T04:11:22Z" level=fatal msg="load config" config_path=/var/opt/gitlab/gitaly/config.toml error="socket could not be created in /var/opt/gitlab/gitaly/internal_sockets: listen unix /var/opt/gitlab/gitaly/internal_sockets/test-6edf9e1e.sock: bind: invalid argument"
+{"gitaly":8779,"level":"warning","msg":"forwarding signal","signal":17,"time":"2021-02-19T04:11:22Z","wrapper":8773}
+{"error":"os: process already finished","gitaly":8779,"level":"error","msg":"can't forward the signal","signal":17,"time":"2021-02-19T04:11:22Z","wrapper":8773}
+{"gitaly":8779,"level":"error","msg":"wrapper for gitaly shutting down","time":"2021-02-19T04:11:23Z","wrapper":8773}
+{"level":"info","msg":"Wrapper started","time":"2021-02-19T04:11:23Z","wrapper":8790}
+{"level":"info","msg":"finding gitaly","pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2021-02-19T04:11:23Z","wrapper":8790}
+{"level":"info","msg":"spawning a process","time":"2021-02-19T04:11:23Z","wrapper":8790}
+{"gitaly":8796,"level":"info","msg":"monitoring gitaly","time":"2021-02-19T04:11:23Z","wrapper":8790}
+time="2021-02-19T04:11:23Z" level=info msg="Starting Gitaly" version="Gitaly, version 13.8.4"
+time="2021-02-19T04:11:23Z" level=warning msg="git path not configured. Using default path resolution" resolvedPath=/opt/gitlab/embedded/bin/git
+time="2021-02-19T04:11:23Z" level=fatal msg="load config" config_path=/var/opt/gitlab/gitaly/config.toml error="socket could not be created in /var/opt/gitlab/gitaly/internal_sockets: listen unix /var/opt/gitlab/gitaly/internal_sockets/test-2c297e96.sock: bind: invalid argument"
+{"gitaly":8796,"level":"warning","msg":"forwarding signal","signal":17,"time":"2021-02-19T04:11:23Z","wrapper":8790}
+{"error":"os: process already finished","gitaly":8796,"level":"error","msg":"can't forward the signal","signal":17,"time":"2021-02-19T04:11:23Z","wrapper":8790}
+{"gitaly":8796,"level":"warning","msg":"forwarding signal","signal":23,"time":"2021-02-19T04:11:23Z","wrapper":8790}
+{"error":"os: process already finished","gitaly":8796,"level":"error","msg":"can't forward the signal","signal":23,"time":"2021-02-19T04:11:23Z","wrapper":8790}
+{"gitaly":8796,"level":"error","msg":"wrapper for gitaly shutting down","time":"2021-02-19T04:11:24Z","wrapper":8790}
+{"level":"info","msg":"Wrapper started","time":"2021-02-19T04:11:24Z","wrapper":8814}
+{"level":"info","msg":"finding gitaly","pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2021-02-19T04:11:24Z","wrapper":8814}
+{"level":"info","msg":"spawning a process","time":"2021-02-19T04:11:24Z","wrapper":8814}
+{"gitaly":8820,"level":"info","msg":"monitoring gitaly","time":"2021-02-19T04:11:24Z","wrapper":8814}
+time="2021-02-19T04:11:24Z" level=info msg="Starting Gitaly" version="Gitaly, version 13.8.4"
+time="2021-02-19T04:11:24Z" level=warning msg="git path not configured. Using default path resolution" resolvedPath=/opt/gitlab/embedded/bin/git
+time="2021-02-19T04:11:24Z" level=fatal msg="load config" config_path=/var/opt/gitlab/gitaly/config.toml error="socket could not be created in /var/opt/gitlab/gitaly/internal_sockets: listen unix /var/opt/gitlab/gitaly/internal_sockets/test-b58dd180.sock: bind: invalid argument"
+{"gitaly":8820,"level":"warning","msg":"forwarding signal","signal":17,"time":"2021-02-19T04:11:24Z","wrapper":8814}
+{"error":"os: process already finished","gitaly":8820,"level":"error","msg":"can't forward the signal","signal":17,"time":"2021-02-19T04:11:24Z","wrapper":8814}
+{"gitaly":8820,"level":"warning","msg":"forwarding signal","signal":23,"time":"2021-02-19T04:11:24Z","wrapper":8814}
+{"error":"os: process already finished","gitaly":8820,"level":"error","msg":"can't forward the signal","signal":23,"time":"2021-02-19T04:11:24Z","wrapper":8814}
+{"gitaly":8820,"level":"error","msg":"wrapper for gitaly shutting down","time":"2021-02-19T04:11:25Z","wrapper":8814}
+{"level":"info","msg":"Wrapper started","time":"2021-02-19T04:11:25Z","wrapper":8830}
+{"level":"info","msg":"finding gitaly","pid_file":"/var/opt/gitlab/gitaly/gitaly.pid","time":"2021-02-19T04:11:25Z","wrapper":8830}
+{"level":"info","msg":"spawning a process","time":"2021-02-19T04:11:25Z","wrapper":8830}
+{"gitaly":8836,"level":"info","msg":"monitoring gitaly","time":"2021-02-19T04:11:25Z","wrapper":8830}
+time="2021-02-19T04:11:25Z" level=info msg="Starting Gitaly" version="Gitaly, version 13.8.4"
+time="2021-02-19T04:11:25Z" level=warning msg="git path not configured. Using default path resolution" resolvedPath=/opt/gitlab/embedded/bin/git
+time="2021-02-19T04:11:25Z" level=fatal msg="load config" config_path=/var/opt/gitlab/gitaly/config.toml error="socket could not be created in /var/opt/gitlab/gitaly/internal_sockets: listen unix /var/opt/gitlab/gitaly/internal_sockets/test-e9095c67.sock: bind: invalid argument"
+{"gitaly":8836,"level":"warning","msg":"forwarding signal","signal":17,"time":"2021-02-19T04:11:25Z","wrapper":8830}
+{"error":"os: process already finished","gitaly":8836,"level":"error","msg":"can't forward the signal","signal":17,"time":"2021-02-19T04:11:25Z","wrapper":8830}

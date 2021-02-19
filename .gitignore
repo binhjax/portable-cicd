@@ -1,7 +1,7 @@
 # Compiled source #
 ###################
 ./ansible/init
-./data
+./data/*
 *.com
 *.class
 *.dll
