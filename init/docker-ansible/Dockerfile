@@ -1,4 +1,4 @@
-FROM alpine:3.7
+FROM alpine:3.11
 
 LABEL MAINTAINER "Hoang Dinh Du <duhd@vnpay.vn>"
 
@@ -28,19 +28,17 @@ RUN echo "http://dl-cdn.alpinelinux.org/alpine/edge/testing/" >> /etc/apk/reposi
   sshpass \
   shadow 
 
-RUN python3 -m pip install cryptography 
-
 # install Docker:
-RUN curl https://download.docker.com/linux/static/stable/x86_64/docker-$DOCKER_VERSION.tgz | \
-  tar -zxC /usr/bin/ --strip-components=1 docker/docker && \
-  # upgrade PIP, install Ansible and Docker python bindings
-  pip3 install --no-cache-dir --upgrade pip && \
-  pip3 install --no-cache-dir \
+# RUN curl https://download.docker.com/linux/static/stable/x86_64/docker-$DOCKER_VERSION.tgz | \
+#   tar -zxC /usr/bin/ --strip-components=1 docker/docker && \
+# upgrade PIP, install Ansible and Docker python bindings
+RUN pip3 install --no-cache-dir --upgrade pip && \
+  pip3 install --no-cache-dir \ 
   ansible==$ANSIBLE_VERSION \
-  docker==4.0.1 \
-  docker-pycreds==0.4.0 && \
-  # clean up
-  apk del build-base curl && \
+  docker==$DOCKER_VERSION 
+
+# clean up
+RUN  apk del build-base curl && \
   rm -rf /var/cache/apk/*
 
 COPY bin/ /usr/bin/
