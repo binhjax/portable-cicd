@@ -26,9 +26,12 @@ RUN echo "http://dl-cdn.alpinelinux.org/alpine/edge/testing/" >> /etc/apk/reposi
   python3 \
   python3-dev \
   sshpass \
-  shadow && \
-  # install Docker:
-  curl https://download.docker.com/linux/static/stable/x86_64/docker-$DOCKER_VERSION.tgz | \
+  shadow 
+
+RUN python3 -m pip install --no-use-pep517 cryptography 
+
+# install Docker:
+RUN curl https://download.docker.com/linux/static/stable/x86_64/docker-$DOCKER_VERSION.tgz | \
   tar -zxC /usr/bin/ --strip-components=1 docker/docker && \
   # upgrade PIP, install Ansible and Docker python bindings
   pip3 install --no-cache-dir --upgrade pip && \
