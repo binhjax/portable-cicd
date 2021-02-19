@@ -24,6 +24,7 @@ Note:
 
 
 3. Push to gitlab & github
+git branch -M master
 git push origin master
 
 git branch -M main

@@ -1,0 +1,9 @@
+2021-02-19_04:20:06.51332 254:C 19 Feb 2021 04:20:06.484 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+2021-02-19_04:20:06.51418 254:C 19 Feb 2021 04:20:06.484 # Redis version=5.0.9, bits=64, commit=ce878b6e, modified=1, pid=254, just started
+2021-02-19_04:20:06.51508 254:C 19 Feb 2021 04:20:06.484 # Configuration loaded
+2021-02-19_04:20:06.51603 254:M 19 Feb 2021 04:20:06.504 * Running mode=standalone, port=0.
+2021-02-19_04:20:06.51751 254:M 19 Feb 2021 04:20:06.504 # WARNING: The TCP backlog setting of 511 cannot be enforced because /proc/sys/net/core/somaxconn is set to the lower value of 128.
+2021-02-19_04:20:06.51855 254:M 19 Feb 2021 04:20:06.504 # Server initialized
+2021-02-19_04:20:06.51952 254:M 19 Feb 2021 04:20:06.504 # WARNING you have Transparent Huge Pages (THP) support enabled in your kernel. This will create latency and memory usage issues with Redis. To fix this issue run the command 'echo never > /sys/kernel/mm/transparent_hugepage/enabled' as root, and add it to your /etc/rc.local in order to retain the setting after a reboot. Redis must be restarted after THP is disabled.
+2021-02-19_04:20:06.52034 254:M 19 Feb 2021 04:20:06.515 * DB loaded from disk: 0.010 seconds
+2021-02-19_04:20:06.52169 254:M 19 Feb 2021 04:20:06.515 * The server is now ready to accept connections at /var/opt/gitlab/redis/redis.socket
