@@ -1,0 +1,8 @@
+#!/bin/bash
+
+mimic-setup || {
+  echo "$0: unable to masquerade as \"$MIMIC_UID\":\"$MIMIC_PRIMARY_GID\"" 1>&2
+  exit 1
+}
+
+gosu "${MIMIC_UID}" "$@"

@@ -1,0 +1,27 @@
+   
+build-job:
+  stage: build
+  image: golang:latest
+  tags:
+    - docker
+  before_script:
+    - eval $(ssh-agent -s)
+    # - whoami
+    # - cat $SSH_PRIVATE_FILE
+    - cat $SSH_PRIVATE_FILE | ssh-add - 
+  script:
+    - id
+    - export http_proxy=http://10.22.7.104:3128
+    - export https_proxy=http://10.22.7.104:3128
+    - export no_proxy=localhost,10.22.0.0/16,repos.vnpay.local
+    - git clone --single-branch --branch localLock https://$GITHUB_USER:$GITHUB_PERSONAL_ACCESS_TOKEN@github.com/binhnt-teko/sharding_accounting.git
+    - cd sharding_accounting/src 
+    - export GOPRIVATE=github.com/binhnt-teko/*
+    - git config --global url."https://${GITHUB_USER}:${GITHUB_PERSONAL_ACCESS_TOKEN}@github.com".insteadOf "https://github.com"
+    - go mod vendor
+    - go build main.go 
+  only:
+     - testing
+     - staging
+     - master
+     - admin

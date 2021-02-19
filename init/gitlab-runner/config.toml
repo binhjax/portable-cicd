@@ -1,0 +1,37 @@
+concurrent = 10
+check_interval = 0
+
+[session_server]
+  session_timeout = 1800
+
+[[runners]]
+  name = "Gitlab Runner Shell"
+  url = "http://10.22.111.45"
+  token = "NwE4vvaU3fPSpc23z6jn"
+  executor = "shell"
+  shell = "bash"
+  [runners.custom_build_dir]
+  [runners.cache]
+    [runners.cache.s3]
+    [runners.cache.gcs]
+
+[[runners]]
+  name = "Gitlab Runner Docker"
+  url = "http://10.22.111.45"
+  token = "RoxAHn9h2Gpq1x1X-jpL"
+  executor = "docker"
+  [runners.custom_build_dir]
+  [runners.docker]
+    tls_verify = false
+    image = "docker:stable"
+    privileged = false
+    disable_entrypoint_overwrite = false
+    oom_kill_disable = false
+    disable_cache = false
+    dns = ["8.8.8.8", "4.4.4.4"]
+    volumes = ["/var/run/docker.sock:/var/run/docker.sock", "/cache","/var/cicd/share/:/share:rw"]
+    shm_size = 0
+    pull_policy = "if-not-present"
+  [runners.cache]
+    [runners.cache.s3]
+    [runners.cache.gcs]

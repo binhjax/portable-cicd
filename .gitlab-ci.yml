@@ -1,0 +1,22 @@
+stages:
+  - build
+  - test
+  - deploy 
+  - intergated
+  - release 
+
+build-image-job:
+  stage: build
+  tags:
+    - shell
+  script:
+    - cd init/docker-ansible && docker build -t vnpay-ansible ./
+  only:
+     - testing
+     - staging
+     - master
+     - admin
+     - kube
+  
+include:
+  - local: 'cicd/gitlab-test.yml'
