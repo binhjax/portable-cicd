@@ -34,8 +34,8 @@ RUN echo "http://dl-cdn.alpinelinux.org/alpine/edge/testing/" >> /etc/apk/reposi
 # upgrade PIP, install Ansible and Docker python bindings
 RUN pip3 install --no-cache-dir --upgrade pip && \
   pip3 install --no-cache-dir \ 
-  ansible==$ANSIBLE_VERSION \
-  docker==$DOCKER_VERSION 
+  ansible\
+  docker 
 
 # clean up
 RUN  apk del build-base curl && \
