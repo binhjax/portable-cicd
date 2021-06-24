@@ -1,3 +1,0 @@
-{"build_time":"20210211.094016","level":"info","msg":"Starting","time":"2021-02-19T08:21:49Z","version":"v8.59.0"}
-{"level":"info","msg":"keywatcher: starting process loop","time":"2021-02-19T08:21:49Z"}
-{"address":"/var/opt/gitlab/redis/redis.socket","level":"info","msg":"redis: dialing","network":"unix","time":"2021-02-19T08:21:49Z"}

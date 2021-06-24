@@ -1,3 +1,7 @@
+# Install system 
+1. Install docker 
+2. Import images 
+
 # Setup system 
 1. Startup gitlab 
 
@@ -15,7 +19,7 @@ Note:
   - Please see  /init/gitlab-runner/config.toml to understand register 
 
 
-# Config project 
+# Config test project 
 1. Add gitlab 
  git remote add origin  http://localhost/blockchain/test-cicd.git
 

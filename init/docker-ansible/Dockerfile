@@ -1,4 +1,4 @@
-FROM alpine:3.11
+FROM gitlab/gitlab-runner:alpine
 
 LABEL MAINTAINER "Hoang Dinh Du <duhd@vnpay.vn>"
 
