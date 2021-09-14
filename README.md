@@ -7,36 +7,77 @@
 1. Startup gitlab 
 #docker-compose up 
 
-docker-compose exec gitlab  grep root /etc/
 - Get root password 
 
+docker-compose exec gitlab cat  /etc/gitlab/initial_root_password 
+or
+cat  data/gitlab/config/
 
-2. Install gitlab-runner in macosx or ubuntu 
-https://docs.gitlab.com/runner/install/
-https://docs.gitlab.com/runner/install/osx.html
+- Register gitlab-runner 
+docker-compose exec  gitlab-runner gitlab-runner register
 
+++ Input data for runner 1 ***
++ Enter the GitLab instance URL (for example, https://gitlab.com/):
+http://gitlab
++ Enter the registration token:
+ Enter token from http://103.161.39.153/admin/runners 
++ Enter tags for the runner (comma-separated): 
+script
++ shell
 
-3. Register runner 
+++ Input data for runner 2 ***
++ Enter the GitLab instance URL (for example, https://gitlab.com/):
+http://gitlab
++ Enter the registration token:
+ Enter token from http://103.161.39.153/admin/runners 
++ Enter tags for the runner (comma-separated): 
+docker 
++ docker
++ golang
+
+2. Install gitlab-runner in macosx or ubuntu  & Register runner 
+ - Install 
+      https://docs.gitlab.com/runner/install/
+      https://docs.gitlab.com/runner/install/osx.html
+
+  - Register 
 https://docs.gitlab.com/runner/register/
 
 Note: 
   - Please see  /init/gitlab-runner/config.toml to understand register 
 
 
+3. Configuring the external URL for GitLab
+
+- Change in file 
+vi data/gitlab/config/gitlab.rb 
+or 
+docker-compose exec  gitlab  vi /etc/gitlab/gitlab.rb
+
+- trigger reconfig 
+docker-compose exec  gitlab   gitlab-ctl reconfigure
+
+
 # Config test project 
-1. Add gitlab 
- git remote add origin  http://localhost/blockchain/test-cicd.git
+1. Create project in new gitlab: test-cicd 
+http://103.161.39.153/test/test-cicd.git
 
-2. Add github 
- git remote add github git@github.com:binhnt-teko/test-cicd.git
-
+2. Add gitlab 
+cd test 
+git remote add test  http://103.161.39.153/test/test-cicd.git
+git pull test main 
 
 3. Push to gitlab & github
+git add .
+git commit -m "run-build-job"
+
 git branch -M master
 git push origin master
 
+git pull test main --allow-unrelated-histories 
+git config --system --unset credential.helper
 git branch -M main
-git push github main
+git push test main
 
 
 #  Other Support 
