@@ -2,10 +2,14 @@
 1. Install docker 
 2. Import images 
 
+
 # Setup system 
 1. Startup gitlab 
-
 #docker-compose up 
+
+docker-compose exec gitlab  grep root /etc/
+- Get root password 
+
 
 2. Install gitlab-runner in macosx or ubuntu 
 https://docs.gitlab.com/runner/install/

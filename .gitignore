@@ -3,6 +3,8 @@
 ./ansible/init
 ./data/*
 ./data/*/*
+./data/*/*/*
+./data/*/*/*/*
 ./gitlab/*
 ./packages/*
 *.com
