@@ -1,4 +1,4 @@
-FROM gitlab/gitlab-runner:alpine
+FROM alpine:3.7
 
 LABEL MAINTAINER "Hoang Dinh Du <duhd@vnpay.vn>"
 
@@ -13,37 +13,37 @@ RUN echo "http://dl-cdn.alpinelinux.org/alpine/edge/testing/" >> /etc/apk/reposi
   apk add --upgrade apk-tools && \
   # ansible dependencies
   apk add \
-      openssh \
-      openssl \
-      openssl-dev && \
+  openssh \
+  openssl \
+  openssl-dev && \
   apk add --no-cache gcc && \
   apk apk --update add --virtual build-dependencies libffi-dev openssl-dev python-dev py-pip build-base  && \
   apk add \
-      cairo \
-      cairo-dev \
-      cargo \
-      libc-dev \
-      bash \
-      build-base \
-      curl \
-      git \
-      gosu \
-      libffi \
-      libffi-dev \
-      musl-dev \
-      openssh \
-      openssl \
-      openssl-dev \
-      py3-pip \
-      python3 \
-      python3-dev \
-      rust \
-      sshpass \
-      shadow 
+  cairo \
+  cairo-dev \
+  cargo \
+  libc-dev \
+  bash \
+  build-base \
+  curl \
+  git \
+  gosu \
+  libffi \
+  libffi-dev \
+  musl-dev \
+  openssh \
+  openssl \
+  openssl-dev \
+  py3-pip \
+  python3 \
+  python3-dev \
+  rust \
+  sshpass \
+  shadow 
 RUN apk del build-dependencies
 # install Docker:
 # RUN curl https://download.docker.com/linux/static/stable/x86_64/docker-$DOCKER_VERSION.tgz | \
-  # tar -zxC /usr/bin/ --strip-components=1 docker/docker 
+# tar -zxC /usr/bin/ --strip-components=1 docker/docker 
 
 # ENV PATH="/root/.cargo/bin:${PATH}"
 # ENV RUSTFLAGS="-C target-feature=-crt-static"
@@ -54,7 +54,7 @@ RUN apk del build-dependencies
 RUN pip3 install --no-cache-dir --upgrade pip && \
   pip3 install --no-cache-dir \ 
   ansible==$ANSIBLE_VERSION
-  # docker 
+# docker 
 
 # clean up
 RUN  apk del build-base curl && \

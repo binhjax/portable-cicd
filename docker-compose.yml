@@ -17,8 +17,7 @@ services:
       - ./data/gitlab/logs:/var/log/gitlab
 
   gitlab-runner:
-    build: ./init/docker-ansible/
-    image: vnpay-gitlab-runner:alpine
+    image: gitlab/gitlab-runner:alpine
     network_mode: bridge
     restart: unless-stopped
     depends_on:

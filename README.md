@@ -11,21 +11,12 @@
 
 docker-compose exec gitlab cat  /etc/gitlab/initial_root_password 
 or
-cat  data/gitlab/config/
+cat  data/gitlab/config/initial_root_password
 
 - Register gitlab-runner 
 docker-compose exec  gitlab-runner gitlab-runner register
 
-++ Input data for runner 1 ***
-+ Enter the GitLab instance URL (for example, https://gitlab.com/):
-http://gitlab
-+ Enter the registration token:
- Enter token from http://103.161.39.153/admin/runners 
-+ Enter tags for the runner (comma-separated): 
-script
-+ shell
-
-++ Input data for runner 2 ***
+++ Input data for runner  ***
 + Enter the GitLab instance URL (for example, https://gitlab.com/):
 http://gitlab
 + Enter the registration token:
@@ -34,6 +25,19 @@ http://gitlab
 docker 
 + docker
 + golang
+
+
+- Config gitlab-runner only pull image if not exist 
+vi data/gitlab-runner/config/config.toml 
+
+Add to line in runner config 
+  volumes = ["/var/run/docker.sock:/var/run/docker.sock", "/cache", "/var/cicd/share/:/share:rw"]
+  pull_policy = ["if-not-present"]
+
+
+Note: 
+ - build ansibel docker from docker file for ansible 
+    docker build -t    vnpay-ansible init/docker-ansible/
 
 2. Install gitlab-runner in macosx or ubuntu  & Register runner 
  - Install 
@@ -45,7 +49,6 @@ https://docs.gitlab.com/runner/register/
 
 Note: 
   - Please see  /init/gitlab-runner/config.toml to understand register 
-
 
 3. Configuring the external URL for GitLab
 
@@ -88,3 +91,7 @@ https://docs.gitlab.com/runner/configuration/proxy.html
 3. Support proxy dns 
 http://mageddo.github.io/dns-proxy-server/latest/en/1-getting-started/running-it/
 
+
+Note: 
+   Change password:  
+   docker-compose exec gitlab  gitlab-rake "gitlab:password:reset[root]"
