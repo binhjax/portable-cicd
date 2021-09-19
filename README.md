@@ -35,6 +35,11 @@ Add to line in runner config
   pull_policy = ["if-not-present"]
 
 
+docker-compose exec gitlab-runner gitlab-runner  restart
+
+docker-compose up gitlab-runner
+docker-compose logs -f  gitlab-runner
+
 Note: 
  - build ansibel docker from docker file for ansible 
     docker build -t    vnpay-ansible init/docker-ansible/
@@ -43,6 +48,34 @@ Note:
  - Install 
       https://docs.gitlab.com/runner/install/
       https://docs.gitlab.com/runner/install/osx.html
+
+      https://docs.gitlab.com/runner/install/linux-manually.html
+
+  - Linux: X64 
+  sudo curl -L --output /usr/local/bin/gitlab-runner "https://gitlab-runner-downloads.s3.amazonaws.com/latest/binaries/gitlab-runner-linux-amd64"
+
+  sudo chmod +x /usr/local/bin/gitlab-runner
+  sudo useradd --comment 'GitLab Runner' --create-home gitlab-runner --shell /bin/bash
+  
+  sudo gitlab-runner install --user=gitlab-runner --working-directory=/home/gitlab-runner 
+
+- Register runner to gitlab 
+  gitlab-runner register 
+
+  ++ Input data for runner  ***
++ Enter the GitLab instance URL (for example, https://gitlab.com/):
+http://localhost
++ Enter the registration token:
+ Enter token from http://103.161.39.153/admin/runners 
++ Enter tags for the runner (comma-separated): 
+docker 
++ docker
++ golang
+
+- Start gitlab runner
+  sudo gitlab-runner start
+
+
 
   - Register 
 https://docs.gitlab.com/runner/register/
